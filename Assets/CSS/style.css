@@ -628,16 +628,16 @@ h6 {
 }
 
 .academic-content a{
-    display: inline-block;
+        display: inline-block;
     text-decoration: none;
-    color: #f8e710;
+    color: #49447c;
     font-size: 18px;
     font-weight: 700;
     transition: 0.3s;
 }
 
 .academic-content a:hover{
-    color: #49447C;
+    color: #f8e710;
 }
 
 /* =========================
