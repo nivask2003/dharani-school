@@ -10,7 +10,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Open Sans", sans-serif;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     /* Prevent layout shift when scrollbar appears/disappears */
     scrollbar-gutter: stable;
 }
@@ -1818,4 +1818,134 @@ ul.navbar-nav.ms-auto {
 
 h4.fac-head {
     text-align: center;
+}
+
+section.page-banner{
+        height: 262px;
+    width: 100%;
+    background-image: linear-gradient(135deg, #49447C, transparent), url(../Images/banner-bg.webp);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: var(--header-height, 169px);
+}
+section.page-banner .banner-title{
+    color: #fff;
+    font-weight: 700 !important;
+}
+
+
+section.contact-1 .box{
+    background-color: #eeeeee75;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 246px;
+    padding: 20px;
+}
+
+section.contact-1 .box .icon-circle{
+    background-color: #49447C;
+    height: 64px;
+    width: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+section.contact-1 .box .icon-circle i{
+    font-size: 30px;
+    color: #fff;
+}
+
+section.contact-1 .box .box-title{
+    font-weight: 700 !important;
+    margin-top: 10px;
+}
+
+section.contact-1 .box p.box-desc {
+    text-align: center;
+}
+section.contact-1 .box p.box-desc a{
+    color: #000;
+    text-decoration: none;
+}
+section.contact-1 .box p.box-desc a:hover{
+    color: #E0342C  
+}
+
+.contact-2 .box{
+    background-color: #f8e71026;
+    height: 550px;
+    padding: 20px;
+    border: 4px solid #f8e710;
+}
+.contact-2 .box .box-title{
+    font-weight: 700 !important;
+}
+/* =========================
+   Contact Page - Responsive
+========================= */
+ 
+/* Make iframe fill its column width */
+section.contact-2 iframe {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+}
+ 
+/* contact-1: auto height on all screens */
+section.contact-1 .box {
+    height: auto;
+    min-height: 246px;
+}
+ 
+/* Tablet */
+@media (max-width: 767px) {
+    section.contact-1 .box {
+        min-height: 200px;
+        height: auto;
+    }
+ 
+    section.page-banner {
+        margin-top: 184px;
+        height: auto;
+        padding: 50px 20px;
+    }
+}
+ 
+/* Mobile */
+@media (max-width: 575px) {
+    section.contact-1 .box {
+        min-height: unset;
+        height: auto;
+        padding: 30px 20px;
+    }
+ 
+    .contact-2 .box {
+        height: auto;
+        min-height: unset;
+    }
+ 
+    section.contact-2 iframe {
+        height: 300px;
+    }
+ 
+    section.page-banner {
+        margin-top: 184px;
+    }
+}
+ 
+/* Tablet iframe */
+@media (min-width: 576px) and (max-width: 991px) {
+    section.contact-2 iframe {
+        height: 420px;
+    }
+ 
+    .contact-2 .box {
+        height: auto;
+        min-height: unset;
+    }
 }
