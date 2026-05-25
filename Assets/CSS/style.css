@@ -190,7 +190,7 @@ h6 {
 ========================= */
 
 .navbar-nav .nav-link:hover {
-    color: #f8e710 !important;
+    color: #E0342C !important;
 }
 
 /* =========================
@@ -1806,4 +1806,8 @@ h4.fac-head {
 ul.navbar-nav.ms-auto {
     padding-left: 16px;
 }
+}
+
+h4.fac-head {
+    text-align: center;
 }
