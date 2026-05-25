@@ -938,6 +938,9 @@ h6 {
     color:  #000;
     border-radius: 20px;
 }
+.admission .btn:hover{
+    background-color: #fff;
+}
 
 /* =========================
    Testimonial Section
@@ -1827,7 +1830,10 @@ section.page-banner{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: var(--header-height, 169px);
+    margin-top: 169px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 section.page-banner .banner-title{
     color: #fff;
@@ -1948,4 +1954,288 @@ section.contact-1 .box {
         height: auto;
         min-height: unset;
     }
+}
+
+section.page-banner.gallery{
+        height: 262px;
+    width: 100%;
+    background-image: linear-gradient(135deg, #49447C, transparent), url(../Images/gallery-banner-bg.webp);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 169px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.smart-gallery-section {
+    padding: 100px 0;
+    overflow: hidden;
+}
+
+.smart-gallery-subtitle {
+    color: #49447C;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.smart-gallery-title {
+    font-size: 52px;
+    font-weight: 700;
+    color: #111827;
+    margin-top: 15px;
+}
+
+/* =========================
+   Filter Buttons
+========================= */
+
+.smart-gallery-filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.filter-btn {
+    border: none;
+    background: #ffffff;
+    color: #111827;
+    padding: 14px 30px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 700;
+    transition: 0.4s ease;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+    background: #49447C;
+    color: #ffffff;
+}
+
+/* =========================
+   Gallery Card
+========================= */
+
+.smart-gallery-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.smart-gallery-card img {
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 24px;
+    transition: 0.6s ease;
+}
+
+/* Hover Animation */
+
+.smart-gallery-card:hover img {
+    transform: scale(1.12) rotate(2deg);
+}
+
+/* =========================
+   Overlay
+========================= */
+
+.gallery-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(73, 68, 124, 0.78);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    opacity: 0;
+    transition: 0.4s ease;
+
+    border-radius: 24px;
+}
+
+.smart-gallery-card:hover .gallery-overlay {
+    opacity: 1;
+}
+
+/* Popup Icon */
+
+.gallery-overlay a {
+    width: 75px;
+    height: 75px;
+    background: #ffffff;
+
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+
+    transform: scale(0);
+    transition: 0.4s ease;
+}
+
+.smart-gallery-card:hover .gallery-overlay a {
+    transform: scale(1);
+}
+
+.gallery-overlay i {
+    font-size: 28px;
+    color: #49447C;
+}
+
+/* =========================
+   Filter Animation
+========================= */
+
+.gallery-item {
+    transition: 0.5s ease;
+}
+
+.gallery-item.hide {
+    transform: scale(0);
+    opacity: 0;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+/* =========================
+   Fullscreen Popup
+========================= */
+
+.smart-gallery-modal {
+    z-index: 999999 !important;
+}
+
+.smart-gallery-modal .modal-dialog {
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+
+.smart-gallery-modal .modal-content {
+    width: 100%;
+    height: 100vh;
+
+    background: rgba(0,0,0,0.96);
+
+    border: none;
+    border-radius: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+}
+
+/* Popup Image */
+
+.smart-gallery-modal img {
+    max-width: 92%;
+    max-height: 92vh;
+    object-fit: contain;
+
+    border-radius: 20px;
+
+    animation: popupZoom 0.4s ease;
+}
+
+/* Popup Animation */
+
+@keyframes popupZoom {
+
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+}
+
+/* Close Button */
+
+.gallery-close-btn {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+
+    z-index: 9999999;
+
+    width: 55px;
+    height: 55px;
+
+    border-radius: 50% !important;
+
+    background-color: #ffffff !important;
+
+    opacity: 1 !important;
+}
+
+.gallery-close-btn:focus {
+    box-shadow: none !important;
+}
+
+/* =========================
+   Responsive
+========================= */
+
+@media(max-width:991px) {
+
+    .smart-gallery-title {
+        font-size: 40px;
+    }
+
+    .smart-gallery-card img {
+        height: 280px;
+    }
+
+}
+
+@media(max-width:767px) {
+
+    .smart-gallery-section {
+        padding: 70px 0;
+    }
+
+    .smart-gallery-title {
+        font-size: 30px;
+    }
+
+    .filter-btn {
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+
+    .smart-gallery-card img {
+        height: 240px;
+    }
+
+    .gallery-close-btn {
+        top: 20px;
+        right: 20px;
+
+        width: 45px;
+        height: 45px;
+    }
+
 }

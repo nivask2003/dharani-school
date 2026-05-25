@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Dharani International School</title>
+    <link rel="stylesheet" href="Assets/CSS/style.css">
+    <link rel="shortcut icon" href="Assets/Images/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sora:wght@100..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="header"></div>
+    <section class="page-banner gallery">
+        <h1 class="banner-title">Gallery</h1>
+    </section>
+     <section class="smart-gallery-section">
+
+        <div class="container">
+
+            <!-- Heading -->
+
+            <div class="text-center mb-5">
+                <span class="smart-gallery-subtitle">
+                    OUR GALLERY
+                </span>
+
+                <h2 class="smart-gallery-title">
+                    School Memories
+                </h2>
+            </div>
+
+            <!-- Filter Buttons -->
+
+            <div class="smart-gallery-filter">
+
+                <button class="filter-btn active"
+                    data-filter="all">
+                    All
+                </button>
+
+                <button class="filter-btn"
+                    data-filter="events">
+                    Events
+                </button>
+
+                <button class="filter-btn"
+                    data-filter="infrastructure">
+                    Infrastructure
+                </button>
+
+                <button class="filter-btn"
+                    data-filter="science">
+                    Science Exhibition
+                </button>
+
+            </div>
+
+            <!-- Gallery Grid -->
+
+            <div class="row g-4 mt-4">
+
+                <!-- Events -->
+
+                <div class="col-lg-4 col-md-6 gallery-item events">
+
+                    <div class="smart-gallery-card">
+
+                        <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=1200&auto=format&fit=crop"
+                            alt="">
+
+                        <div class="gallery-overlay">
+
+                            <a href="https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=1200&auto=format&fit=crop"
+                                data-bs-toggle="modal"
+                                data-bs-target="#galleryModal"
+                                onclick="showGalleryImage(this)">
+
+                                <i class="bi bi-plus-lg"></i>
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 gallery-item events">
+
+                    <div class="smart-gallery-card">
+
+                        <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=1200&auto=format&fit=crop"
+                            alt="">
+
+                        <div class="gallery-overlay">
+
+                            <a href="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=1200&auto=format&fit=crop"
+                                data-bs-toggle="modal"
+                                data-bs-target="#galleryModal"
+                                onclick="showGalleryImage(this)">
+
+                                <i class="bi bi-plus-lg"></i>
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Infrastructure -->
+
+                <div class="col-lg-4 col-md-6 gallery-item infrastructure">
+
+                    <div class="smart-gallery-card">
+
+                        <img src="Assets/Images/gallery-1.webp"
+                            alt="">
+
+                        <div class="gallery-overlay">
+
+                            <a href="Assets/Images/gallery-1.webp"
+                                data-bs-toggle="modal"
+                                data-bs-target="#galleryModal"
+                                onclick="showGalleryImage(this)">
+
+                                <i class="bi bi-plus-lg"></i>
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 gallery-item infrastructure">
+
+                    <div class="smart-gallery-card">
+
+                        <img src="Assets/Images/gallery-2.webp"
+                            alt="">
+
+                        <div class="gallery-overlay">
+
+                            <a href="Assets/Images/gallery-2.webp"
+                                data-bs-toggle="modal"
+                                data-bs-target="#galleryModal"
+                                onclick="showGalleryImage(this)">
+
+                                <i class="bi bi-plus-lg"></i>
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6 gallery-item infrastructure">
+
+                    <div class="smart-gallery-card">
+
+                        <img src="Assets/Images/gallery-3.webp"
+                            alt="">
+
+                        <div class="gallery-overlay">
+
+                            <a href="Assets/Images/gallery-3.webp"
+                                data-bs-toggle="modal"
+                                data-bs-target="#galleryModal"
+                                onclick="showGalleryImage(this)">
+
+                                <i class="bi bi-plus-lg"></i>
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Science Exhibition -->
+
+                <div class="col-lg-4 col-md-6 gallery-item science">
+
+                    <div class="smart-gallery-card">
+
+                        <img src="Assets/Images/gallery-4.webp"
+                            alt="">
+
+                        <div class="gallery-overlay">
+
+                            <a href="Assets/Images/gallery-4.webp"
+                                data-bs-toggle="modal"
+                                data-bs-target="#galleryModal"
+                                onclick="showGalleryImage(this)">
+
+                                <i class="bi bi-plus-lg"></i>
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 gallery-item science">
+
+                    <div class="smart-gallery-card">
+
+                        <img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?q=80&w=1200&auto=format&fit=crop"
+                            alt="">
+
+                        <div class="gallery-overlay">
+
+                            <a href="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?q=80&w=1200&auto=format&fit=crop"
+                                data-bs-toggle="modal"
+                                data-bs-target="#galleryModal"
+                                onclick="showGalleryImage(this)">
+
+                                <i class="bi bi-plus-lg"></i>
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+         Fullscreen Modal
+    ========================= -->
+
+    <div class="modal fade smart-gallery-modal"
+        id="galleryModal"
+        tabindex="-1">
+
+        <div class="modal-dialog modal-fullscreen">
+
+            <div class="modal-content">
+
+                <button type="button"
+                    class="btn-close gallery-close-btn"
+                    data-bs-dismiss="modal"></button>
+
+                <img src=""
+                    id="galleryModalImage"
+                    class="img-fluid"
+                    alt="Gallery Image">
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Gallery Script -->
+
+    <script>
+
+        // Filter Gallery
+
+        const filterButtons = document.querySelectorAll(".filter-btn");
+        const galleryItems = document.querySelectorAll(".gallery-item");
+
+        filterButtons.forEach(button => {
+
+            button.addEventListener("click", () => {
+
+                filterButtons.forEach(btn => btn.classList.remove("active"));
+
+                button.classList.add("active");
+
+                const filter = button.getAttribute("data-filter");
+
+                galleryItems.forEach(item => {
+
+                    if (filter === "all" || item.classList.contains(filter)) {
+
+                        item.classList.remove("hide");
+
+                    } else {
+
+                        item.classList.add("hide");
+
+                    }
+
+                });
+
+            });
+
+        });
+
+        // Popup Image
+
+        function showGalleryImage(element) {
+
+            let imageSrc = element.getAttribute("href");
+
+            document.getElementById("galleryModalImage").src = imageSrc;
+
+        }
+
+    </script>
+    <div id="footer"></div>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap bundle (includes Popper) loaded BEFORE header inject -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script>
+        $("#header").load("header.html", function () {
+
+            // Sticky header
+            function updateSticky() {
+                var $header = $("#mainHeader");
+                if ($(window).scrollTop() > 100) {
+                    $header.addClass("sticky");
+                } else {
+                    $header.removeClass("sticky");
+                }
+            }
+            $(window).on("scroll resize", updateSticky);
+            updateSticky();
+
+            // Mobile menu toggle — manual only (data-bs-toggle removed from button)
+            var togglerBtn = document.querySelector(".navbar-toggler");
+            var collapseEl = document.querySelector("#mainNav");
+
+            if (togglerBtn && collapseEl) {
+                var bsCollapse = new bootstrap.Collapse(collapseEl, { toggle: false });
+                var isOpen = false;
+
+                function openMenu() {
+                    bsCollapse.show();
+                    isOpen = true;
+                    togglerBtn.setAttribute("aria-expanded", "true");
+                }
+
+                function closeMenu() {
+                    bsCollapse.hide();
+                    isOpen = false;
+                    togglerBtn.setAttribute("aria-expanded", "false");
+                }
+
+                togglerBtn.addEventListener("click", function (e) {
+                    e.stopPropagation();
+                    if (isOpen) {
+                        closeMenu();
+                    } else {
+                        openMenu();
+                    }
+                });
+
+                // Sync state when Bootstrap fires events externally
+                collapseEl.addEventListener("shown.bs.collapse", function () {
+                    isOpen = true;
+                    togglerBtn.setAttribute("aria-expanded", "true");
+                });
+                collapseEl.addEventListener("hidden.bs.collapse", function () {
+                    isOpen = false;
+                    togglerBtn.setAttribute("aria-expanded", "false");
+                });
+
+                // Close menu when a nav-link is tapped on mobile
+                collapseEl.querySelectorAll(".nav-link").forEach(function (link) {
+                    link.addEventListener("click", function () {
+                        if (window.innerWidth < 1200) {
+                            closeMenu();
+                        }
+                    });
+                });
+            }
+
+        });
+
+        $("#footer").load("footer.html");
+    </script>
+    <script src="Assets/JS/script.js"></script>
+</body>
+
+</html>
