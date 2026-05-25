@@ -1217,7 +1217,7 @@ h6 {
 .footer-about {
     color: rgba(255,255,255,0.75);
     font-size: 17px;
-    line-height: 2;
+    line-height: 1.5;
     margin-bottom: 30px;
 }
 
@@ -1279,7 +1279,7 @@ h6 {
 }
 
 .footer-links li {
-    margin-bottom: 18px;
+    margin-bottom: 10px;
 }
 
 .footer-links a {
@@ -1307,7 +1307,7 @@ h6 {
     display: flex;
     align-items: flex-start;
     gap: 16px;
-    margin-bottom: 28px;
+    margin-bottom: 10px;
 }
 
 .footer-contact-item i {
@@ -2119,6 +2119,7 @@ section.page-banner.gallery{
 
 .smart-gallery-modal {
     z-index: 999999 !important;
+    padding-right: 0 !important;
 }
 
 .smart-gallery-modal .modal-dialog {
@@ -2141,7 +2142,7 @@ section.page-banner.gallery{
     align-items: center;
     justify-content: center;
 
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 /* Popup Image */
