@@ -41,15 +41,34 @@ h6 {
    Header
 ========================= */
 
-#mainHeader {
+/* Header Default */
+#mainHeader{
+    position: relative;
     width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    background: #fff;
+    z-index: 999;
+    transition: all 0.4s ease;
 }
 
+/* Sticky Header */
+#mainHeader.sticky-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    animation: headerSlideDown 0.4s ease;
+}
+
+/* Smooth Animation */
+@keyframes headerSlideDown{
+    from{
+        transform: translateY(-100%);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
 /* =========================
    Top Header
 ========================= */
@@ -147,7 +166,7 @@ h6 {
 }
 
 .navbar-brand img {
-    max-height: 78px;
+        max-height: 94px;
     width: auto;
 }
 
@@ -178,23 +197,29 @@ h6 {
 }
 
 /* =========================
-   Active Menu
-========================= */
-
-.active-menu {
-    background: #f8e710;
-}
-
-.active-menu .nav-link {
-    color: #fff !important;
-}
-
-/* =========================
    Hover
 ========================= */
 
 .navbar-nav .nav-link:hover {
     color: #E0342C !important;
+    position: relative;
+}
+
+.navbar-nav .nav-link::before{
+        content: "";
+    position: absolute;
+    width: 0;
+    height: 4px;
+    background-color: #f8e710;
+    top: 67px;
+    bottom: 12px;
+    border-radius: 20px;
+    transition: 0.3s ease;
+
+}
+
+.navbar-nav .nav-link:hover::before{
+    width: 73%;
 }
 
 /* =========================
@@ -202,21 +227,22 @@ h6 {
 ========================= */
 
 .dropdown-menu {
-    border: none;
-    border-radius: 0;
-    padding: 0;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    border: none !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08) !important;
+    min-width: 16rem !important;
 }
 
 .dropdown-item {
-    padding: 12px 20px;
-    font-size: 15px;
-    font-weight: 500;
+    padding: 12px 20px !important;
+    font-size: 15px !important;
+    font-weight: 500 !important;
 }
 
 .dropdown-item:hover {
-    background: #f4b400;
-    color: #fff;
+    background: #49447C !important;
+    color: #fff !important;
 }
 
 /* =========================
@@ -230,34 +256,6 @@ h6 {
 
 .navbar-toggler:focus {
     box-shadow: none !important;
-}
-
-/* =========================
-   Sticky Header
-========================= */
-
-#mainHeader.sticky {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    animation: slideDown .35s ease forwards;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-    will-change: transform;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-}
-
-@keyframes slideDown {
-
-    from {
-        transform: translate3d(0, -100%, 0);
-    }
-
-    to {
-        transform: translate3d(0, 0, 0);
-    }
-
 }
 
 /* =========================
@@ -428,12 +426,11 @@ h6 {
     height: 926px;
     display: block;
     width: 100%;
-    margin-top: 173px;
 }
 
 .home-2 {
     position: absolute;
-    top: 848px;
+    top: 874px;
     left: 68px;
 }
 
@@ -521,13 +518,14 @@ h6 {
 }
 
 .home-4 img.img-fluid{
-    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-    transition: transform 0.8s ease;
-    transform-style: preserve-3d;
+    width: 100%;
+    transition: 0.5s ease;
+    border-radius: 58% 42% 63% 37% / 38% 56% 44% 62%;
+    object-fit: cover;
 }
 
-.home-4 .col-2:hover img.img-fluid{
-    transform: rotateY(180deg);
+.home-4 img.img-fluid:hover{
+    transform: scale(1.05) rotate(2deg);
 }
 
 .home-4 .col-2{
@@ -537,10 +535,17 @@ h6 {
     align-items: center;
 }
 
-.home-4 .col-2 .fac-head{
-        margin-top: 20px;
-    text-align: center;
+h4.fac-head {
+        text-align: center;
+    margin-top: 16px;
 }
+
+h4.fac-head:hover{
+    color: #E0342C;
+    font-weight: 600 !important;
+}
+
+
 
 /* =========================
    Academics Section
@@ -635,14 +640,22 @@ h6 {
 .academic-content a{
         display: inline-block;
     text-decoration: none;
-    color: #49447c;
+    color: #fff;
     font-size: 18px;
     font-weight: 700;
     transition: 0.3s;
+    position: relative;
+    background-color: #E0342C;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
 }
 
 .academic-content a:hover{
-    color: #f8e710;
+    background-color: #f8e710;
+    color: #000;
 }
 
 /* =========================
@@ -920,7 +933,7 @@ h6 {
 
 .admission{
     padding: 108px 0;
-    background-image: url(../Images/admission.png);
+    background-image: url(../Images/admission.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -935,12 +948,18 @@ h6 {
     color: #fff;
 }
 .admission .btn{
-    background-color: #f8e710;
-    color:  #000;
+    background-color: #E0342C;
+    color: #fff;
     border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-weight: 700;
 }
 .admission .btn:hover{
-    background-color: #fff;
+    background-color: #f8e710;
+    color: #000;
 }
 
 /* =========================
@@ -1450,9 +1469,9 @@ h6 {
     .hero-section video.hero-video {
         height: 750px;
     }
-    .home-2 {
-        top: 682px;
-    }
+    /* .home-2 {
+        top: 1022px;
+    } */
     .home-3 {
         margin-top: 210px;
     }
@@ -1462,9 +1481,9 @@ h6 {
     .hero-section video.hero-video {
         height: 620px;
     }
-    .home-2 {
-        top: 558px;
-    }
+    /* .home-2 {
+        top: 1022px;
+    } */
     .home-3 {
         margin-top: 200px;
     }
@@ -1607,6 +1626,7 @@ h6 {
         height: auto;
         padding-top: 80px;
         padding-bottom: 30px;
+        margin-top: 74px;
     }
     .home-2 h3.box-title {
         margin-top: 20px;
@@ -1620,13 +1640,13 @@ h6 {
 
 /* Desktop (xl+): keep absolute overlay on hero */
 @media (min-width: 992px) {
-    .home-2 {
+    /* .home-2 {
         position: absolute;
         top: 848px;
         left: 0;
         right: 0;
         width: 100%;
-    }
+    } */
     /* Ensure hero section is relative and tall enough */
     .hero-section {
         position: relative;
@@ -1806,7 +1826,6 @@ h6 {
     object-fit: cover;
     width: 100%;
     height: 100%;
-    margin-top: 195px;
 }
 
 .home-3 p.section.desc {
@@ -1820,9 +1839,6 @@ ul.navbar-nav.ms-auto {
 }
 }
 
-h4.fac-head {
-    text-align: center;
-}
 
 section.page-banner{
         height: 262px;
@@ -1831,7 +1847,6 @@ section.page-banner{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 169px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1964,7 +1979,6 @@ section.page-banner.gallery{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 169px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2240,4 +2254,20 @@ section.page-banner.gallery{
         height: 45px;
     }
 
+}
+
+.page-banner-fac {
+    height: 262px;
+    width: 100%;
+    background-image: linear-gradient(135deg, #49447C, transparent), url(../Images/fac-bg.webp);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1.banner-title {
+    color: #fff;
+    font-weight: 700 !important;
 }
