@@ -7,7 +7,7 @@ include 'function.php';
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Sri Dharani International School</title>
     <link rel="stylesheet" href="Assets/CSS/style.css">
     <link rel="shortcut icon" href="Assets/Images/favicon.ico" type="image/x-icon">
@@ -151,195 +151,421 @@ href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.m
                 <span class="divider"></span>
             </div>
 
-            <!-- Carousel -->
-            <div id="academicsCarousel" class="carousel slide" data-bs-ride="carousel">
+         <!-- Carousel -->
+<!-- ===================== ACADEMICS SECTION ===================== -->
 
-                <div class="carousel-inner">
+<!-- DESKTOP / TABLET -->
+<div id="academicsCarouselDesktop"
+    class="carousel slide d-none d-lg-block"
+    data-bs-ride="carousel">
 
-                    <!-- Slide 1 -->
-                    <div class="carousel-item active">
+    <div class="carousel-inner">
 
-                        <div class="row g-4">
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
 
-                            <!-- Card -->
-                            <div class="col-lg-4">
-                                <div class="academic-card">
+            <div class="row g-4">
 
-                                    <div class="academic-image">
-                                        <img src="Assets/Images/pre-primary.webp" alt="">
-                                    </div>
+                <!-- Card 1 -->
+                <div class="col-lg-4">
+                    <div class="academic-card">
 
-                                    <div class="academic-content">
-                                        <h3>Pre Primary Education</h3>
+                        <div class="academic-image">
+                            <img src="Assets/Images/pre-primary.webp" alt="">
+                        </div>
 
-                                        <p>
-                                            Activity-based learning environment designed
-                                            to develop creativity, confidence, and
-                                            communication skills among young learners.
-                                        </p>
+                        <div class="academic-content">
 
-                                        <a href="#">
-                                            Read More
-                                        </a>
-                                    </div>
+                            <h3>Pre Primary Education</h3>
 
-                                </div>
-                            </div>
+                            <p>
+                                Activity-based learning environment designed
+                                to develop creativity, confidence, and
+                                communication skills among young learners.
+                            </p>
 
-                            <!-- Card -->
-                            <div class="col-lg-4">
-                                <div class="academic-card">
-
-                                    <div class="academic-image">
-                                        <img src="Assets/Images/primary.webp" alt="">
-                                    </div>
-
-                                    <div class="academic-content">
-                                        <h3>Primary Education</h3>
-
-                                        <p>
-                                            Strong academic foundation with conceptual
-                                            learning, language development, and
-                                            interactive classroom activities.
-                                        </p>
-
-                                        <a href="#">
-                                            Read More
-                                        </a>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <!-- Card -->
-                            <div class="col-lg-4">
-                                <div class="academic-card">
-
-                                    <div class="academic-image">
-                                        <img src="Assets/Images/secondary.webp" alt="">
-                                    </div>
-
-                                    <div class="academic-content">
-                                        <h3>Secondary Education</h3>
-
-                                        <p>
-                                            Comprehensive CBSE curriculum focused on
-                                            analytical thinking, discipline, and academic
-                                            excellence.
-                                        </p>
-
-                                        <a href="#">
-                                            Read More
-                                        </a>
-                                    </div>
-
-                                </div>
-                            </div>
+                            <a href="#">Read More</a>
 
                         </div>
 
                     </div>
-
-                    <!-- Slide 2 -->
-                    <div class="carousel-item">
-
-                        <div class="row g-4">
-
-                            <!-- Card -->
-                            <div class="col-lg-4">
-                                <div class="academic-card">
-
-                                    <div class="academic-image">
-                                        <img src="Assets/Images/science.webp" alt="">
-                                    </div>
-
-                                    <div class="academic-content">
-                                        <h3>Science Stream</h3>
-
-                                        <p>
-                                            Advanced science curriculum with laboratory
-                                            training and competitive exam preparation.
-                                        </p>
-
-                                        <a href="#">
-                                            Read More
-                                        </a>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <!-- Card -->
-                            <div class="col-lg-4">
-                                <div class="academic-card">
-
-                                    <div class="academic-image">
-                                        <img src="Assets/Images/commerce.webp" alt="">
-                                    </div>
-
-                                    <div class="academic-content">
-                                        <h3>Commerce Stream</h3>
-
-                                        <p>
-                                            Career-focused commerce education with
-                                            business studies, economics, and accountancy.
-                                        </p>
-
-                                        <a href="#">
-                                            Read More
-                                        </a>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <!-- Card -->
-                            <div class="col-lg-4">
-                                <div class="academic-card">
-
-                                    <div class="academic-image">
-                                        <img src="Assets/Images/digital.webp" alt="">
-                                    </div>
-
-                                    <div class="academic-content">
-                                        <h3>Digital Learning</h3>
-
-                                        <p>
-                                            Smart classroom environment integrated with
-                                            technology-enabled teaching and practical
-                                            learning methods.
-                                        </p>
-
-                                        <a href="#">
-                                            Read More
-                                        </a>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-
                 </div>
 
-                <!-- Controls -->
-                <button class="carousel-control-prev academic-arrow" type="button" data-bs-target="#academicsCarousel"
-                    data-bs-slide="prev">
+                <!-- Card 2 -->
+                <div class="col-lg-4">
+                    <div class="academic-card">
 
-                    <i class="bi bi-arrow-left"></i>
+                        <div class="academic-image">
+                            <img src="Assets/Images/primary.webp" alt="">
+                        </div>
 
-                </button>
+                        <div class="academic-content">
 
-                <button class="carousel-control-next academic-arrow" type="button" data-bs-target="#academicsCarousel"
-                    data-bs-slide="next">
+                            <h3>Primary Education</h3>
 
-                    <i class="bi bi-arrow-right"></i>
+                            <p>
+                                Strong academic foundation with conceptual
+                                learning, language development, and
+                                interactive classroom activities.
+                            </p>
 
-                </button>
+                            <a href="#">Read More</a>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-lg-4">
+                    <div class="academic-card">
+
+                        <div class="academic-image">
+                            <img src="Assets/Images/secondary.webp" alt="">
+                        </div>
+
+                        <div class="academic-content">
+
+                            <h3>Secondary Education</h3>
+
+                            <p>
+                                Comprehensive CBSE curriculum focused on
+                                analytical thinking, discipline, and academic
+                                excellence.
+                            </p>
+
+                            <a href="#">Read More</a>
+
+                        </div>
+
+                    </div>
+                </div>
 
             </div>
+
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+
+            <div class="row g-4">
+
+                <!-- Card 4 -->
+                <div class="col-lg-4">
+                    <div class="academic-card">
+
+                        <div class="academic-image">
+                            <img src="Assets/Images/science.webp" alt="">
+                        </div>
+
+                        <div class="academic-content">
+
+                            <h3>Science Stream</h3>
+
+                            <p>
+                                Advanced science curriculum with laboratory
+                                training and competitive exam preparation.
+                            </p>
+
+                            <a href="#">Read More</a>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="col-lg-4">
+                    <div class="academic-card">
+
+                        <div class="academic-image">
+                            <img src="Assets/Images/commerce.webp" alt="">
+                        </div>
+
+                        <div class="academic-content">
+
+                            <h3>Commerce Stream</h3>
+
+                            <p>
+                                Career-focused commerce education with
+                                business studies, economics, and accountancy.
+                            </p>
+
+                            <a href="#">Read More</a>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="col-lg-4">
+                    <div class="academic-card">
+
+                        <div class="academic-image">
+                            <img src="Assets/Images/digital.webp" alt="">
+                        </div>
+
+                        <div class="academic-content">
+
+                            <h3>Digital Learning</h3>
+
+                            <p>
+                                Smart classroom environment integrated with
+                                technology-enabled teaching and practical
+                                learning methods.
+                            </p>
+
+                            <a href="#">Read More</a>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Controls -->
+    <button class="carousel-control-prev academic-arrow"
+        type="button"
+        data-bs-target="#academicsCarouselDesktop"
+        data-bs-slide="prev">
+
+        <i class="bi bi-arrow-left"></i>
+
+    </button>
+
+    <button class="carousel-control-next academic-arrow"
+        type="button"
+        data-bs-target="#academicsCarouselDesktop"
+        data-bs-slide="next">
+
+        <i class="bi bi-arrow-right"></i>
+
+    </button>
+
+</div>
+
+
+
+<!-- ===================== MOBILE CAROUSEL ===================== -->
+
+<div id="academicsCarouselMobile"
+    class="carousel slide d-block d-lg-none"
+    data-bs-ride="carousel">
+
+    <div class="carousel-inner">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+            <div class="row justify-content-center">
+
+                <div class="col-12">
+                    <div class="academic-card">
+
+                        <div class="academic-image">
+                            <img src="Assets/Images/pre-primary.webp" alt="">
+                        </div>
+
+                        <div class="academic-content">
+
+                            <h3>Pre Primary Education</h3>
+
+                            <p>
+                                Activity-based learning environment designed
+                                to develop creativity, confidence, and
+                                communication skills among young learners.
+                            </p>
+
+                            <a href="#">Read More</a>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+            <div class="row justify-content-center">
+
+                <div class="col-12">
+                    <div class="academic-card">
+
+                        <div class="academic-image">
+                            <img src="Assets/Images/primary.webp" alt="">
+                        </div>
+
+                        <div class="academic-content">
+
+                            <h3>Primary Education</h3>
+
+                            <p>
+                                Strong academic foundation with conceptual
+                                learning, language development, and
+                                interactive classroom activities.
+                            </p>
+
+                            <a href="#">Read More</a>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item">
+            <div class="row justify-content-center">
+
+                <div class="col-12">
+                    <div class="academic-card">
+
+                        <div class="academic-image">
+                            <img src="Assets/Images/secondary.webp" alt="">
+                        </div>
+
+                        <div class="academic-content">
+
+                            <h3>Secondary Education</h3>
+
+                            <p>
+                                Comprehensive CBSE curriculum focused on
+                                analytical thinking, discipline, and academic
+                                excellence.
+                            </p>
+
+                            <a href="#">Read More</a>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Slide 4 -->
+        <div class="carousel-item">
+            <div class="row justify-content-center">
+
+                <div class="col-12">
+                    <div class="academic-card">
+
+                        <div class="academic-image">
+                            <img src="Assets/Images/science.webp" alt="">
+                        </div>
+
+                        <div class="academic-content">
+
+                            <h3>Science Stream</h3>
+
+                            <p>
+                                Advanced science curriculum with laboratory
+                                training and competitive exam preparation.
+                            </p>
+
+                            <a href="#">Read More</a>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Slide 5 -->
+        <div class="carousel-item">
+            <div class="row justify-content-center">
+
+                <div class="col-12">
+                    <div class="academic-card">
+
+                        <div class="academic-image">
+                            <img src="Assets/Images/commerce.webp" alt="">
+                        </div>
+
+                        <div class="academic-content">
+
+                            <h3>Commerce Stream</h3>
+
+                            <p>
+                                Career-focused commerce education with
+                                business studies, economics, and accountancy.
+                            </p>
+
+                            <a href="#">Read More</a>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Slide 6 -->
+        <div class="carousel-item">
+            <div class="row justify-content-center">
+
+                <div class="col-12">
+                    <div class="academic-card">
+
+                        <div class="academic-image">
+                            <img src="Assets/Images/digital.webp" alt="">
+                        </div>
+
+                        <div class="academic-content">
+
+                            <h3>Digital Learning</h3>
+
+                            <p>
+                                Smart classroom environment integrated with
+                                technology-enabled teaching and practical
+                                learning methods.
+                            </p>
+
+                            <a href="#">Read More</a>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Controls -->
+    <button class="carousel-control-prev academic-arrow"
+        type="button"
+        data-bs-target="#academicsCarouselMobile"
+        data-bs-slide="prev">
+
+        <i class="bi bi-arrow-left"></i>
+
+    </button>
+
+    <button class="carousel-control-next academic-arrow"
+        type="button"
+        data-bs-target="#academicsCarouselMobile"
+        data-bs-slide="next">
+
+        <i class="bi bi-arrow-right"></i>
+
+    </button>
+
+</div>
 
         </div>
     </section>
@@ -445,169 +671,246 @@ href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.m
         </div>
 
         <!-- Carousel -->
-        <div id="testimonialCarousel"
-             class="carousel slide"
-             data-bs-ride="carousel">
+        <!-- ===================== DESKTOP TESTIMONIAL CAROUSEL ===================== -->
 
-            <div class="carousel-inner">
+<div id="testimonialCarouselDesktop"
+     class="carousel slide d-none d-lg-block"
+     data-bs-ride="carousel">
 
-                <!-- Slide 1 -->
-                <div class="carousel-item active">
+    <div class="carousel-inner">
 
-                    <div class="row g-4">
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
 
-                        <!-- Testimonial 1 -->
-                        <div class="col-lg-4">
-                            <div class="testimonial-card">
+            <div class="row g-4">
 
-                                <div class="testimonial-icon">
-                                    <i class="bi bi-quote"></i>
-                                </div>
+                <!-- Testimonial 1 -->
+                <div class="col-lg-4">
+                    <div class="testimonial-card">
 
-                                <p class="testimonial-text">
-                                    I admitted my son directly in Class 1
-                                    without kindergarten. The teachers
-                                    patiently taught him from the basics,
-                                    and now he is performing extremely well.
-                                </p>
-
-                                <div class="testimonial-user">
-                                    <h5>Chithra</h5>
-                                    <span>
-                                        Parent of Praveen - Class 1
-                                    </span>
-                                </div>
-
-                            </div>
+                        <div class="testimonial-icon">
+                            <i class="bi bi-quote"></i>
                         </div>
 
-                        <!-- Testimonial 2 -->
-                        <div class="col-lg-4">
-                            <div class="testimonial-card">
+                        <p class="testimonial-text">
+                            I admitted my son directly in Class 1
+                            without kindergarten. The teachers
+                            patiently taught him from the basics,
+                            and now he is performing extremely well.
+                        </p>
 
-                                <div class="testimonial-icon">
-                                    <i class="bi bi-quote"></i>
-                                </div>
+                        <div class="testimonial-user">
+                            <h5>Chithra</h5>
 
-                                <p class="testimonial-text">
-                                    After joining SDIS, I could see a major
-                                    improvement in my daughter’s English
-                                    speaking and vocabulary skills.
-                                </p>
-
-                                <div class="testimonial-user">
-                                    <h5>Jayaraj</h5>
-                                    <span>
-                                        Parent of Preetha - Class 3
-                                    </span>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <!-- Testimonial 3 -->
-                        <div class="col-lg-4">
-                            <div class="testimonial-card">
-
-                                <div class="testimonial-icon">
-                                    <i class="bi bi-quote"></i>
-                                </div>
-
-                                <p class="testimonial-text">
-                                    The teachers are caring, knowledgeable,
-                                    and supportive. My son became more
-                                    focused and disciplined after joining.
-                                </p>
-
-                                <div class="testimonial-user">
-                                    <h5>Hemalatha</h5>
-                                    <span>
-                                        Parent of Ashwin - Class 5
-                                    </span>
-                                </div>
-
-                            </div>
+                            <span>
+                                Parent of Praveen - Class 1
+                            </span>
                         </div>
 
                     </div>
-
                 </div>
 
-                <!-- Slide 2 -->
-                <div class="carousel-item">
+                <!-- Testimonial 2 -->
+                <div class="col-lg-4">
+                    <div class="testimonial-card">
 
-                    <div class="row g-4">
-
-                        <!-- Testimonial 4 -->
-                        <div class="col-lg-4">
-                            <div class="testimonial-card">
-
-                                <div class="testimonial-icon">
-                                    <i class="bi bi-quote"></i>
-                                </div>
-
-                                <p class="testimonial-text">
-                                    I could clearly see improvement in my
-                                    daughter’s academics and extracurricular
-                                    activities after joining SDIS.
-                                </p>
-
-                                <div class="testimonial-user">
-                                    <h5>Gokulraj</h5>
-                                    <span>
-                                        Parent of Deeksha - Class 7
-                                    </span>
-                                </div>
-
-                            </div>
+                        <div class="testimonial-icon">
+                            <i class="bi bi-quote"></i>
                         </div>
 
-                        <!-- Testimonial 5 -->
-                        <div class="col-lg-4">
-                            <div class="testimonial-card">
+                        <p class="testimonial-text">
+                            After joining SDIS, I could see a major
+                            improvement in my daughter’s English
+                            speaking and vocabulary skills.
+                        </p>
 
-                                <div class="testimonial-icon">
-                                    <i class="bi bi-quote"></i>
-                                </div>
+                        <div class="testimonial-user">
+                            <h5>Jayaraj</h5>
 
-                                <p class="testimonial-text">
-                                    My daughter scored excellent marks in
-                                    her Class 10 board exams, and the
-                                    coaching provided was outstanding.
-                                </p>
-
-                                <div class="testimonial-user">
-                                    <h5>Chandrakanth</h5>
-                                    <span>
-                                        Parent of Ritwik - Class 10
-                                    </span>
-                                </div>
-
-                            </div>
+                            <span>
+                                Parent of Preetha - Class 3
+                            </span>
                         </div>
 
-                        <!-- Testimonial 6 -->
-                        <div class="col-lg-4">
-                            <div class="testimonial-card">
+                    </div>
+                </div>
 
-                                <div class="testimonial-icon">
-                                    <i class="bi bi-quote"></i>
-                                </div>
+                <!-- Testimonial 3 -->
+                <div class="col-lg-4">
+                    <div class="testimonial-card">
 
-                                <p class="testimonial-text">
-                                    I was very happy to see my daughter
-                                    excel academically and secure admission
-                                    in the college of her choice.
-                                </p>
+                        <div class="testimonial-icon">
+                            <i class="bi bi-quote"></i>
+                        </div>
 
-                                <div class="testimonial-user">
-                                    <h5>Sivakavi</h5>
-                                    <span>
-                                        Parent of Chinmayi - Class 12
-                                    </span>
-                                </div>
+                        <p class="testimonial-text">
+                            The teachers are caring, knowledgeable,
+                            and supportive. My son became more
+                            focused and disciplined after joining.
+                        </p>
 
-                            </div>
+                        <div class="testimonial-user">
+                            <h5>Hemalatha</h5>
+
+                            <span>
+                                Parent of Ashwin - Class 5
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+
+            <div class="row g-4">
+
+                <!-- Testimonial 4 -->
+                <div class="col-lg-4">
+                    <div class="testimonial-card">
+
+                        <div class="testimonial-icon">
+                            <i class="bi bi-quote"></i>
+                        </div>
+
+                        <p class="testimonial-text">
+                            I could clearly see improvement in my
+                            daughter’s academics and extracurricular
+                            activities after joining SDIS.
+                        </p>
+
+                        <div class="testimonial-user">
+                            <h5>Gokulraj</h5>
+
+                            <span>
+                                Parent of Deeksha - Class 7
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Testimonial 5 -->
+                <div class="col-lg-4">
+                    <div class="testimonial-card">
+
+                        <div class="testimonial-icon">
+                            <i class="bi bi-quote"></i>
+                        </div>
+
+                        <p class="testimonial-text">
+                            My daughter scored excellent marks in
+                            her Class 10 board exams, and the
+                            coaching provided was outstanding.
+                        </p>
+
+                        <div class="testimonial-user">
+                            <h5>Chandrakanth</h5>
+
+                            <span>
+                                Parent of Ritwik - Class 10
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Testimonial 6 -->
+                <div class="col-lg-4">
+                    <div class="testimonial-card">
+
+                        <div class="testimonial-icon">
+                            <i class="bi bi-quote"></i>
+                        </div>
+
+                        <p class="testimonial-text">
+                            I was very happy to see my daughter
+                            excel academically and secure admission
+                            in the college of her choice.
+                        </p>
+
+                        <div class="testimonial-user">
+                            <h5>Sivakavi</h5>
+
+                            <span>
+                                Parent of Chinmayi - Class 12
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Controls -->
+    <button class="carousel-control-prev"
+            type="button"
+            data-bs-target="#testimonialCarouselDesktop"
+            data-bs-slide="prev">
+
+        <span class="testimonial-arrow">
+            <i class="bi bi-arrow-left"></i>
+        </span>
+
+    </button>
+
+    <button class="carousel-control-next"
+            type="button"
+            data-bs-target="#testimonialCarouselDesktop"
+            data-bs-slide="next">
+
+        <span class="testimonial-arrow">
+            <i class="bi bi-arrow-right"></i>
+        </span>
+
+    </button>
+
+</div>
+
+
+
+<!-- ===================== MOBILE TESTIMONIAL CAROUSEL ===================== -->
+
+<div id="testimonialCarouselMobile"
+     class="carousel slide d-block d-lg-none"
+     data-bs-ride="carousel">
+
+    <div class="carousel-inner">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+
+            <div class="row justify-content-center">
+
+                <div class="col-12">
+
+                    <div class="testimonial-card">
+
+                        <div class="testimonial-icon">
+                            <i class="bi bi-quote"></i>
+                        </div>
+
+                        <p class="testimonial-text">
+                            I admitted my son directly in Class 1
+                            without kindergarten. The teachers
+                            patiently taught him from the basics,
+                            and now he is performing extremely well.
+                        </p>
+
+                        <div class="testimonial-user">
+                            <h5>Chithra</h5>
+
+                            <span>
+                                Parent of Praveen - Class 1
+                            </span>
                         </div>
 
                     </div>
@@ -616,32 +919,209 @@ href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.m
 
             </div>
 
-            <!-- Carousel Controls -->
-            <button class="carousel-control-prev"
-                    type="button"
-                    data-bs-target="#testimonialCarousel"
-                    data-bs-slide="prev">
+        </div>
 
-                <span class="testimonial-arrow">
-                    <i class="bi bi-arrow-left"></i>
-                </span>
+        <!-- Slide 2 -->
+        <div class="carousel-item">
 
-            </button>
+            <div class="row justify-content-center">
 
-            <button class="carousel-control-next"
-                    type="button"
-                    data-bs-target="#testimonialCarousel"
-                    data-bs-slide="next">
+                <div class="col-12">
 
-                <span class="testimonial-arrow">
-                    <i class="bi bi-arrow-right"></i>
-                </span>
+                    <div class="testimonial-card">
 
-            </button>
+                        <div class="testimonial-icon">
+                            <i class="bi bi-quote"></i>
+                        </div>
+
+                        <p class="testimonial-text">
+                            After joining SDIS, I could see a major
+                            improvement in my daughter’s English
+                            speaking and vocabulary skills.
+                        </p>
+
+                        <div class="testimonial-user">
+                            <h5>Jayaraj</h5>
+
+                            <span>
+                                Parent of Preetha - Class 3
+                            </span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item">
+
+            <div class="row justify-content-center">
+
+                <div class="col-12">
+
+                    <div class="testimonial-card">
+
+                        <div class="testimonial-icon">
+                            <i class="bi bi-quote"></i>
+                        </div>
+
+                        <p class="testimonial-text">
+                            The teachers are caring, knowledgeable,
+                            and supportive. My son became more
+                            focused and disciplined after joining.
+                        </p>
+
+                        <div class="testimonial-user">
+                            <h5>Hemalatha</h5>
+
+                            <span>
+                                Parent of Ashwin - Class 5
+                            </span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Slide 4 -->
+        <div class="carousel-item">
+
+            <div class="row justify-content-center">
+
+                <div class="col-12">
+
+                    <div class="testimonial-card">
+
+                        <div class="testimonial-icon">
+                            <i class="bi bi-quote"></i>
+                        </div>
+
+                        <p class="testimonial-text">
+                            I could clearly see improvement in my
+                            daughter’s academics and extracurricular
+                            activities after joining SDIS.
+                        </p>
+
+                        <div class="testimonial-user">
+                            <h5>Gokulraj</h5>
+
+                            <span>
+                                Parent of Deeksha - Class 7
+                            </span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Slide 5 -->
+        <div class="carousel-item">
+
+            <div class="row justify-content-center">
+
+                <div class="col-12">
+
+                    <div class="testimonial-card">
+
+                        <div class="testimonial-icon">
+                            <i class="bi bi-quote"></i>
+                        </div>
+
+                        <p class="testimonial-text">
+                            My daughter scored excellent marks in
+                            her Class 10 board exams, and the
+                            coaching provided was outstanding.
+                        </p>
+
+                        <div class="testimonial-user">
+                            <h5>Chandrakanth</h5>
+
+                            <span>
+                                Parent of Ritwik - Class 10
+                            </span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Slide 6 -->
+        <div class="carousel-item">
+
+            <div class="row justify-content-center">
+
+                <div class="col-12">
+
+                    <div class="testimonial-card">
+
+                        <div class="testimonial-icon">
+                            <i class="bi bi-quote"></i>
+                        </div>
+
+                        <p class="testimonial-text">
+                            I was very happy to see my daughter
+                            excel academically and secure admission
+                            in the college of her choice.
+                        </p>
+
+                        <div class="testimonial-user">
+                            <h5>Sivakavi</h5>
+
+                            <span>
+                                Parent of Chinmayi - Class 12
+                            </span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
 
         </div>
 
     </div>
+
+    <!-- Controls -->
+    <button class="carousel-control-prev"
+            type="button"
+            data-bs-target="#testimonialCarouselMobile"
+            data-bs-slide="prev">
+
+        <span class="testimonial-arrow">
+            <i class="bi bi-arrow-left"></i>
+        </span>
+
+    </button>
+
+    <button class="carousel-control-next"
+            type="button"
+            data-bs-target="#testimonialCarouselMobile"
+            data-bs-slide="next">
+
+        <span class="testimonial-arrow">
+            <i class="bi bi-arrow-right"></i>
+        </span>
+
+    </button>
+
+</div>
 
 </section>
     <?=template_footer()?>

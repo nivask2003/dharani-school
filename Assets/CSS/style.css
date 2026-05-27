@@ -12,7 +12,7 @@ body {
     font-family: "Open Sans", sans-serif;
     /* overflow-x: hidden; */
     /* Prevent layout shift when scrollbar appears/disappears */
-    scrollbar-gutter: stable;
+    /* scrollbar-gutter: stable; */
 }
 
 h1,
@@ -480,16 +480,6 @@ h6 {
 .home-2 h3.box-title {
     margin-top: 70px;
     color: #fff;
-}
-
-.home-2 h3.box-title::before {
-    content: "";
-    background-color: #fff;
-    position: absolute;
-    height: 2px;
-    width: 23%;
-    top: 110px;
-    left: 114px;
 }
 
 .home-2 p.box-desc {
@@ -1546,7 +1536,7 @@ h4.fac-head:hover {
 /* On mobile: 1 column */
 @media (max-width: 575px) {
     .hero-section video.hero-video {
-        height: 340px;
+        height: 216px !important;
     }
 
     .home-2 {
@@ -2359,4 +2349,406 @@ h1.banner-title {
 
 .fac-1 .box .box-title{
     font-weight: 700 !important;
+}
+
+/* =========================================
+   FACILITIES PAGE - ZOOM & RESPONSIVE FIX
+========================================= */
+
+/* Prevent layout breaking during browser zoom */
+.fac-1,
+.fac-1 .container,
+.fac-1 .row {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* Equal card height */
+.fac-1 .row {
+    row-gap: 30px;
+}
+
+.fac-1 .col-md-4 {
+    display: flex;
+}
+
+.fac-1 .box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 100%;
+}
+
+/* Image responsive */
+.fac-1 .box img.img-fluid {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Content spacing */
+.fac-1 .box .box-desc {
+    line-height: 1.8;
+    margin-bottom: 0;
+    flex-grow: 1;
+}
+
+/* Fix zoom issue for long titles/text */
+.fac-1 .box .box-title,
+.fac-1 .box .box-desc {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+/* Large Screen */
+@media (min-width: 1400px) {
+
+    .fac-1 .container {
+        max-width: 1320px;
+    }
+
+    .fac-1 .box {
+        padding: 24px;
+    }
+}
+
+/* Laptop */
+@media (max-width: 1199px) {
+
+    .fac-1 .box img.img-fluid {
+        height: 220px;
+    }
+
+    .fac-1 .box {
+        padding: 18px;
+    }
+
+    .fac-1 .box .box-title {
+        font-size: 24px;
+    }
+}
+
+/* Tablet */
+@media (max-width: 991px) {
+
+    .fac-1 .col-md-4 {
+        width: 50%;
+    }
+
+    .fac-1 .box img.img-fluid {
+        height: 220px;
+    }
+
+    .page-banner-fac {
+        height: 220px;
+    }
+
+    h1.banner-title {
+        font-size: 42px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+
+    .fac-1 {
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
+    .fac-1 .col-md-4 {
+        width: 100%;
+    }
+
+    .fac-1 .box {
+        padding: 18px;
+    }
+
+    .fac-1 .box img.img-fluid {
+        height: auto;
+        max-height: 260px;
+    }
+
+    .fac-1 .box .box-title {
+        font-size: 22px;
+    }
+
+    .fac-1 .box .box-desc {
+        font-size: 15px;
+        line-height: 1.8;
+    }
+
+    .page-banner-fac {
+        height: 180px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    h1.banner-title {
+        font-size: 34px;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+
+    .fac-1 .container {
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+    }
+
+    .fac-1 .box {
+        clip-path: polygon(0% 0%, 82% 0%, 100% 18%, 100% 100%, 0% 100%);
+    }
+
+    .fac-1 img.img-fluid {
+        clip-path: polygon(0% 0%, 82% 0%, 100% 24%, 100% 100%, 0% 100%);
+    }
+
+    h1.banner-title {
+        font-size: 28px;
+    }
+}
+
+/* Browser zoom stability */
+img,
+.container,
+.row,
+.col-md-4,
+.box {
+    max-width: 100%;
+}
+
+/* Prevent unwanted horizontal scroll on zoom */
+body {
+    overflow-x: hidden;
+}
+
+/* =========================================
+   GLOBAL ZOOM + RESPONSIVE STABILITY FIX
+   Keeps layout stable at all browser zoom levels
+========================================= */
+
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* Prevent all sections from creating horizontal scroll */
+section,
+.container,
+.container-fluid,
+.row {
+    max-width: 100%;
+}
+
+/* Bootstrap row overflow fix */
+.row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+/* Prevent image/video overflow */
+img,
+video,
+iframe {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Better responsive scaling */
+* {
+    box-sizing: border-box;
+}
+
+/* Prevent text overflow during zoom */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+/* =========================================
+   HERO SECTION FIX
+========================================= */
+
+.hero-section {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero-section video.hero-video {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Responsive hero heights */
+@media (min-width: 1400px) {
+    .hero-section video.hero-video {
+        height: 926px;
+    }
+}
+
+@media (max-width: 1399px) {
+    .hero-section video.hero-video {
+        height: 780px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .hero-section video.hero-video {
+        height: 620px;
+    }
+}
+
+@media (max-width: 991px) {
+    .hero-section video.hero-video {
+        height: 500px;
+    }
+}
+
+@media (max-width: 575px) {
+    .hero-section video.hero-video {
+        height: 340px;
+    }
+}
+
+/* =========================================
+   HOME-2 BOX FIX
+========================================= */
+
+.home-2 {
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+
+.home-2 .row {
+    row-gap: 30px;
+}
+
+.home-2 .box {
+    width: 100%;
+    height: 100%;
+}
+
+/* =========================================
+   FACILITIES SECTION FIX
+========================================= */
+
+.home-4 .row {
+    row-gap: 30px;
+}
+
+.home-4 img.img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+/* =========================================
+   ACADEMICS CARD FIX
+========================================= */
+
+.academic-card {
+    height: 100%;
+}
+
+.academic-image img {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* =========================================
+   GALLERY FIX
+========================================= */
+
+.gallery-card,
+.smart-gallery-card {
+    width: 100%;
+    overflow: hidden;
+}
+
+.gallery-card img,
+.smart-gallery-card img {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* =========================================
+   TESTIMONIAL FIX
+========================================= */
+
+.testimonial-card {
+    height: 100%;
+}
+
+/* =========================================
+   FOOTER FIX
+========================================= */
+
+.custom-footer {
+    overflow: hidden;
+}
+
+.footer-map iframe {
+    width: 100%;
+}
+
+/* =========================================
+   NAVBAR FIX FOR ZOOM
+========================================= */
+
+.navbar,
+.navbar-collapse,
+.navbar-nav {
+    max-width: 100%;
+}
+
+.navbar-nav .nav-link {
+    white-space: normal;
+}
+
+/* =========================================
+   MOBILE EXTRA FIX
+========================================= */
+
+@media (max-width: 767px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .container {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .home-2,
+    .home-3,
+    .home-4,
+    .academics-section,
+    .school-gallery-section,
+    .testimonial-section,
+    .custom-footer {
+        overflow: hidden;
+    }
+}
+
+@media(min-width:1200px){
+    h3.box-title{
+        font-size: 20px;
+    }
 }
