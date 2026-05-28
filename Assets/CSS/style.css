@@ -569,6 +569,14 @@ h6 {
     position: absolute;
 }
 
+.profile:hover{
+    background-size: cover;
+    box-shadow: 10px 10px 0 #49447C, -10px -10px 0 #49447C;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
 .profile_infos {
     text-align: center;
 }
@@ -2830,4 +2838,18 @@ span {
     .section-title{
         font-size: 22px !important;
     }
+}
+
+@media(max-width: 1400px){
+    .footer-contact-item p, .footer-contact-item a{
+        font-size: 14px;
+    }
+
+    .footer-about{
+        font-size: 14px;
+    }
+}
+
+p.section.desc {
+    text-align: justify;
 }

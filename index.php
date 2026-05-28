@@ -89,7 +89,8 @@ href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.m
                         that combines academic achievement, moral values, creativity, leadership, and holistic
                         development. With a strong foundation in CBSE education and modern teaching methodologies, we
                         provide students with an inspiring environment that encourages curiosity, independent thinking,
-                        and lifelong learning. Every child at SDIS is guided to explore their talents, strengthen their
+                        and lifelong learning.</p>
+                        <p class="section desc">Every child at SDIS is guided to explore their talents, strengthen their
                         abilities, and grow into responsible individuals prepared to meet future challenges with
                         confidence and determination. At Sri Dharani International School, we strongly believe that every student
                         possesses unique potential waiting to be discovered and developed. Our dedicated faculty
