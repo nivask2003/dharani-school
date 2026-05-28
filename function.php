@@ -2,7 +2,7 @@
 function template_header(){
     echo <<<EOT
 
-<header id="mainHeader">
+<header >
 
     <!-- Top Bar -->
     <div class="top-header">
@@ -49,7 +49,7 @@ function template_header(){
     </div>
 
     <!-- Main Navbar -->
-    <div class="main-navbar">
+    <div class="main-navbar" id="mainHeader">
 
         <div class="container-fluid p-0">
 

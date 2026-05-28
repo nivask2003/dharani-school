@@ -56,7 +56,7 @@ href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.m
                 </div>
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="box b3">
-                        <img src="Assets/Images/teacher.png" alt="" class="img-fluid">
+                        <img src="Assets/Images/support.png" alt="" class="img-fluid">
                         <h3 class="box-title">LIFE TIME SUPPORT</h3>
                         <p class="box-desc">Our institution offers lifelong support by nurturing confidence, values,
                             leadership skills, and continuous learning for future success.</p>
@@ -64,7 +64,7 @@ href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.m
                 </div>
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="box b4">
-                        <img src="Assets/Images/teacher.png" alt="" class="img-fluid">
+                        <img src="Assets\Images\scholarship.png" alt="" class="img-fluid">
                         <h3 class="box-title">SCHOLARSHIP NEWS</h3>
                         <p class="box-desc">Stay updated with the latest scholarship opportunities, academic
                             achievements, merit awards, and student recognition programs at SDIS.</p>
@@ -102,41 +102,76 @@ href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.m
 
     </section>
 
-    <section class="home-4">
-        <div class="container">
-            <div class="heading">
-                <span class="badge"><i class="bi bi-mortarboard-fill"></i> Our Facilities</span>
-                <h2 class="section-title">Explore Our Facilities</h2>
-                <div class="row" style="margin-top: 30px;">
-                    <div class="col-lg-2 col-md-4 col-6">
-                        <img src="Assets/Images/smart-classroom.webp" alt="" class="img-fluid">
-                        <h4 class="fac-head">Smart<br>Classroom</h4>
+   <section class="video-wrap " id="facilities">
+        <div class="container-fluid">
+            <div class="title center_title">
+                <span class="badge" style=""><i class="bi bi-mortarboard-fill me-2"></i>Our Facilities</span>
+                <h1 class="section-title">Why We’re Different</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="profile_data">
+                        <div class="back"></div>
+                        <div class="profile" style="background-image: url('Assets/Images/fac-1.webp');"></div>
                     </div>
-                    <div class="col-lg-2 col-md-4 col-6">
-                        <img src="Assets/Images/monteesw.webp" alt="" class="img-fluid">
-                        <h4 class="fac-head">Montessori Activity</h4>
+                    <div class="profile_infos">
+                        <h1 class="name"></h1>
+                        <h4 class="occupation">Smart Classroom</h4>
                     </div>
-                    <div class="col-lg-2 col-md-4 col-6">
-                        <img src="Assets/Images/kindergarten.webp" alt="" class="img-fluid">
-                        <h4 class="fac-head">Kindergarten Learning Space</h4>
+                </div>
+                <div class="col-md-2">
+                    <div class="profile_data">
+                        <div class="back"></div>
+                        <div class="profile" style="background-image: url('Assets/Images/fac-2.webp');"></div>
                     </div>
-                    <div class="col-lg-2 col-md-4 col-6">
-                        <img src="Assets/Images/sci-lab.webp" alt="" class="img-fluid">
-                        <h4 class="fac-head">Science Laboratory</h4>
+                    <div class="profile_infos">
+                        <h1 class="name"></h1>
+                        <h4 class="occupation">Montessori Room</h4>
                     </div>
-                    <div class="col-lg-2 col-md-4 col-6">
-                        <img src="Assets/Images/computer-lab.webp" alt="" class="img-fluid">
-                        <h4 class="fac-head">Computer Laboratory</h4>
+                </div>
+                <div class="col-md-2">
+                    <div class="profile_data">
+                        <div class="back"></div>
+                        <div class="profile" style="background-image: url('Assets/Images/fac-3.webp');"></div>
                     </div>
-                    <div class="col-lg-2 col-md-4 col-6">
-                        <img src="Assets/Images/math-lab.webp" alt="" class="img-fluid">
-                        <h4 class="fac-head">Mathematics Laboratory
-                        </h4>
+                    <div class="profile_infos">
+                        <h1 class="name"></h1>
+                        <h4 class="occupation">Kindergartner Space</h4>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="profile_data">
+                        <div class="back"></div>
+                        <div class="profile" style="background-image: url('Assets/Images/fac-4.webp');"></div>
+                    </div>
+                    <div class="profile_infos">
+                        <h1 class="name"></h1>
+                        <h4 class="occupation">Science Laboratory</h4>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="profile_data">
+                        <div class="back"></div>
+                        <div class="profile" style="background-image: url('Assets/Images/fac-5.webp');"></div>
+                    </div>
+                    <div class="profile_infos">
+                        <h1 class="name"></h1>
+                        <h4 class="occupation">Computer Laboratory</h4>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="profile_data">
+                        <div class="back"></div>
+                        <div class="profile" style="background-image: url('Assets/Images/fac-6.webp');"></div>
+                    </div>
+                    <div class="profile_infos">
+                        <h1 class="name"></h1>
+                        <h4 class="occupation">Mathematics Laboratory</h4>
                     </div>
                 </div>
 
-            </div>
 
+            </div>
         </div>
     </section>
 
@@ -572,72 +607,46 @@ href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.m
     <section class="school-gallery-section">
         <div class="container">
             <span class="badge"><i class="bi bi-mortarboard-fill"></i> GALLERY</span>
-            <h2 class="section-title">Our Gallery </h2>
+            <h2 class="section-title">Moments of Learning and Student Life   </h2>
 
-            <!-- Gallery Grid -->
-            <div class="row gallery-row">
+            <div id="galleryCarousel" class="carousel slide" data-bs-ride="carousel" data-aos="fade-up"
+                data-aos-delay="200">
 
-                <!-- Item -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="gallery-card">
+                <div class="carousel-inner">
 
-                        <img src="Assets/Images/gallery-1.webp" alt="" class="gallery-popup-img" data-bs-toggle="modal"
-                            data-bs-target="#galleryModal">
-
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active">
+                        <div class="gallery-img-box">
+                            <img src="Assets/Images/1.png" class="d-block w-100">
+                        </div>
                     </div>
+
+                    <!-- Slide 2 -->
+                    <div class="carousel-item">
+                        <div class="gallery-img-box">
+                            <img src="Assets/Images/2.png" class="d-block w-100">
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="carousel-item">
+                        <div class="gallery-img-box">
+                            <img src="Assets/Images/3.png" class="d-block w-100">
+                        </div>
+                    </div>
+
                 </div>
 
-                <!-- Item -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="gallery-card">
+                <!-- Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#galleryCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
 
-                        <img src="Assets/Images/gallery-2.webp" alt="" class="gallery-popup-img" data-bs-toggle="modal"
-                            data-bs-target="#galleryModal">
-
-                    </div>
-                </div>
-
-                <!-- Item -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="gallery-card">
-
-                        <img src="Assets/Images/gallery-3.webp" alt="" class="gallery-popup-img" data-bs-toggle="modal"
-                            data-bs-target="#galleryModal">
-
-                    </div>
-                </div>
-
-                <!-- Item -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="gallery-card">
-
-                        <img src="Assets/Images/gallery-4.webp" alt="" class="gallery-popup-img" data-bs-toggle="modal"
-                            data-bs-target="#galleryModal">
-
-                    </div>
-                </div>
-
-                <!-- Item -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="gallery-card">
-
-                        <img src="Assets/Images/gallery-5.webp" alt="" class="gallery-popup-img" data-bs-toggle="modal"
-                            data-bs-target="#galleryModal">
-
-                    </div>
-                </div>
-
-                <!-- Item -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="gallery-card">
-
-                        <img src="Assets/Images/gallery-6.webp" alt="" class="gallery-popup-img" data-bs-toggle="modal"
-                            data-bs-target="#galleryModal">
-
-                    </div>
-                </div>
-
-            </div>
+                <button class="carousel-control-next" type="button" data-bs-target="#galleryCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
 
         </div>
     </section>
@@ -646,12 +655,12 @@ href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.m
             <div class="row">
                 <div class="col-lg-6 col-12">
                     <!-- <span class="badge">Admission</span> -->
-                    <h2 class="section-title">Apply for Admission</h2>
+                    <h2 class="section-title">Admission 2026 - 2027 </h2>
                     <p class="section-desc">we are committed to nurturing a learning environment that empowers students
                         to achieve academic excellence, develop critical thinking skills, and grow into responsible
                         global citizens. We invite you to explore what makes our community special and how we can
                         support your child's educational journey</p>
-                    <a href="" class="btn">Apply Now</a>
+                    <a href="contact.php" class="btn">Contact Us</a>
                 </div>
                 <div class="col-lg-6 col-12"></div>
             </div>
@@ -1125,24 +1134,6 @@ href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.m
 
 </section>
     <?=template_footer()?>
-    <div class="modal fade gallery-modal" id="galleryModal" tabindex="-1" aria-hidden="true">
-
-        <div class="modal-dialog modal-dialog-centered modal-xl">
-
-            <div class="modal-content">
-
-                <!-- Close Button -->
-                <button type="button" class="btn-close gallery-close" data-bs-dismiss="modal" aria-label="Close">
-                </button>
-
-                <!-- Popup Image -->
-                <img src="" id="popupImage" class="img-fluid w-100" alt="Gallery Image">
-
-            </div>
-
-        </div>
-
-    </div>
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- Bootstrap bundle (includes Popper) loaded BEFORE header inject -->
