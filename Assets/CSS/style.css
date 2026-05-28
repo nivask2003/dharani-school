@@ -503,6 +503,27 @@ h6 {
     border: 6px solid #f8e710;
 }
 
+.home-3 .btn{
+        display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    transition: 0.3s;
+    position: relative;
+    background-color: #E0342C;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+
+.home-3 .btn:hover{
+    background-color: #f8e710;
+
+}
+
 .video-wrap {
     padding: 70px 0 90px 0;
 }
@@ -2852,4 +2873,14 @@ span {
 
 p.section.desc {
     text-align: justify;
+}
+
+.testimonial-section .carousel-control-prev {
+    left: -129px;
+    top: 167px;
+}
+
+.testimonial-section .carousel-control-next {
+    right: -129px;
+    top: 167px;
 }

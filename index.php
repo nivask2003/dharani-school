@@ -75,28 +75,23 @@ href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.m
     </section>
     <section class="home-3">
         <div class="container">
-            <span class="badge"><i class="bi bi-mortarboard-fill"></i> Welcome to Sri Dharani International School</span>
-            <h2 class="section-title">SHAPING FUTURE LEADERS WITH EXCELLENCE</h2>
-            <p class="section-desc"></p>
+            
             <div class="row">
                 <div class="col-lg-6 col-12">
                     <img src="Assets/Images/about.webp" alt="" class="img-fluid">
                 </div>
                 <div class="col-lg-6 col-12">
+                    <span class="badge"><i class="bi bi-mortarboard-fill"></i> Inspiring Young Minds</span>
+            <h2 class="section-title">SHAPING FUTURE LEADERS WITH EXCELLENCE</h2>
                     <p class="section desc">Welcome to Sri Dharani International School, a place where education goes
                         beyond classrooms and learning becomes a journey of discovery, confidence, discipline, and
                         excellence. Our institution is committed to nurturing young minds through a balanced approach
                         that combines academic achievement, moral values, creativity, leadership, and holistic
-                        development. With a strong foundation in CBSE education and modern teaching methodologies, we
-                        provide students with an inspiring environment that encourages curiosity, independent thinking,
-                        and lifelong learning.</p>
+                        development.</p>
                         <p class="section desc">Every child at SDIS is guided to explore their talents, strengthen their
                         abilities, and grow into responsible individuals prepared to meet future challenges with
-                        confidence and determination. At Sri Dharani International School, we strongly believe that every student
-                        possesses unique potential waiting to be discovered and developed. Our dedicated faculty
-                        members, advanced learning facilities, and student-centered educational practices ensure that
-                        children receive quality education along with emotional support, personal guidance, and
-                        value-based learning experiences.</p>
+                        confidence and determination.</p>
+                        <a href="about.php" class="btn">Learn More</a>
                 </div>
             </div>
         </div>

@@ -34,7 +34,7 @@ function template_header(){
 
                     <div class="top-menu">
 
-                        <a href="career.php ">CAREER</a>
+                        <a href="admission.php ">ADMISSION</a>
                         <a href="https://www.cbse.gov.in/cbsenew/documents/MPD_08052026.pdf" target="_blank">
                             CBSE
                         </a>
@@ -106,12 +106,18 @@ function template_header(){
                             <a class="nav-link" href="facilities.php">FACILITIES</a>
                         </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="admission.php">ADMISSION</a>
-                        </li>
+                        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            ADMISSION
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="admission.php">Admission Procedure</a></li>
+            <li><a class="dropdown-item" href="admission-form.php">Admission Form</a></li>
+          </ul>
+        </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="admission-form.php">ADMISSION FORM</a>
+                            <a class="nav-link" href="admission-form.php">CAREER</a>
                         </li>
 
                         <li class="nav-item">
