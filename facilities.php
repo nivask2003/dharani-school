@@ -52,7 +52,7 @@ include 'function.php';
                 <div class="col-md-4">
                     <div class="box">
                         <img src="Assets\Images\fac-3.webp" alt="" class="img-fluid">
-                        <h3 class="box-title mt-4">Kindergartner Space</h3>
+                        <h3 class="box-title mt-4">Kindergarten Space</h3>
                         <p class="box-desc">Sri Dharani International School offers smart classrooms with digital tools and interactive learning methods that improve creativity, participation, and conceptual understanding.</p>
                     </div>
                 </div>
