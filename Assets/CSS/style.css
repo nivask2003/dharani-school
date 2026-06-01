@@ -37,7 +37,8 @@ h6 {
     position: relative !important;
 }
 
-.academics-section .badge {
+.academics-section .badge,
+.about-3 .badge {
     color: #f8e710 !important;
     text-transform: uppercase !important;
     letter-spacing: 4px !important;
@@ -503,8 +504,8 @@ h6 {
     border: 6px solid #f8e710;
 }
 
-.home-3 .btn{
-        display: inline-block;
+.home-3 .btn {
+    display: inline-block;
     text-decoration: none;
     color: #fff;
     font-size: 18px;
@@ -519,7 +520,7 @@ h6 {
     border-radius: 20px;
 }
 
-.home-3 .btn:hover{
+.home-3 .btn:hover {
     background-color: #f8e710;
 
 }
@@ -527,6 +528,7 @@ h6 {
 .video-wrap {
     padding: 70px 0 90px 0;
 }
+
 .video-wrap .title {
     margin-bottom: 45px;
 }
@@ -550,7 +552,7 @@ h6 {
 }
 
 .title h1 {
-        font-size: 48px;
+    font-size: 48px;
     /* color: #56225e; */
     color: #49447c;
     margin: 0;
@@ -559,7 +561,7 @@ h6 {
 
 .profile_data {
     aspect-ratio: 1/1;
-    width: min(400px,90%);
+    width: min(400px, 90%);
     position: relative;
 }
 
@@ -575,8 +577,8 @@ h6 {
 
 @keyframes rotate {
     100% {
-    transform: rotate(360deg);
-}
+        transform: rotate(360deg);
+    }
 }
 
 .profile {
@@ -590,7 +592,7 @@ h6 {
     position: absolute;
 }
 
-.profile:hover{
+.profile:hover {
     background-size: cover;
     box-shadow: 10px 10px 0 #49447C, -10px -10px 0 #49447C;
     background-repeat: no-repeat;
@@ -645,7 +647,7 @@ h6 {
 }
 
 .academics-title .section-title {
-        /* font-weight: 700 !important; */
+    /* font-weight: 700 !important; */
     font-size: 48px;
     /* color: #56225e; */
     color: #49447c;
@@ -874,7 +876,7 @@ h6 {
 }
 
 .school-gallery-section .section-title {
-        /* font-weight: 700 !important; */
+    /* font-weight: 700 !important; */
     margin-bottom: 30px;
     font-size: 48px;
     /* color: #56225e; */
@@ -883,7 +885,7 @@ h6 {
     font-weight: bold !important;
 }
 
-.school-gallery-section .carousel-inner{
+.school-gallery-section .carousel-inner {
     border-radius: 20px;
 }
 
@@ -931,8 +933,8 @@ h6 {
     /* gold */
 }
 
-.school-gallery-section .gallery-img-box img{
-        height: auto;
+.school-gallery-section .gallery-img-box img {
+    height: auto;
     object-fit: contain;
     width: 100% !important;
 }
@@ -1023,7 +1025,7 @@ h6 {
 }
 
 .admission h2.section-title {
-        color: #fff !important;
+    color: #fff !important;
     /* font-weight: 700 !important; */
     /* font-weight: 700 !important; */
     font-size: 48px;
@@ -1034,7 +1036,7 @@ h6 {
 }
 
 .admission p.section-desc {
-        color: #fff;
+    color: #fff;
     text-align: justify;
     line-height: 1.6;
     padding-top: 14px;
@@ -1080,8 +1082,8 @@ h6 {
     text-transform: uppercase;
 }
 
-.testimonial-section .section-title{
-        /* color: #49447C; */
+.testimonial-section .section-title {
+    /* color: #49447C; */
     /* font-weight: 700 !important; */
     margin-bottom: 30px;
     font-size: 48px;
@@ -2856,18 +2858,20 @@ span {
     }
 }
 
-@media(max-width: 482px){
-    .section-title{
+@media(max-width: 482px) {
+    .section-title {
         font-size: 22px !important;
     }
 }
 
-@media(max-width: 1400px){
-    .footer-contact-item p, .footer-contact-item a{
+@media(max-width: 1400px) {
+
+    .footer-contact-item p,
+    .footer-contact-item a {
         font-size: 14px;
     }
 
-    .footer-about{
+    .footer-about {
         font-size: 14px;
     }
 }
@@ -2893,7 +2897,7 @@ p.section.desc {
 }
 
 .about-1 .icon-box {
-       padding: 20px;
+    padding: 20px;
     background: #49447c;
     width: 80px;
     display: flex;
@@ -2903,7 +2907,7 @@ p.section.desc {
     height: 80px;
 }
 
-.about-1 .icon-box i{
+.about-1 .icon-box i {
     font-size: 34px;
     color: #fff;
 }
@@ -2918,19 +2922,19 @@ p.section.desc {
     align-items: center;
 }
 
-.about-1 .icon-list{
+.about-1 .icon-list {
     list-style-type: none;
     padding: 0;
 }
 
-.about-1 .icon-list .list{
+.about-1 .icon-list .list {
     display: flex;
     align-items: center;
     gap: 10px;
     margin-bottom: 20px;
 }
 
-.about-1 .icon-list .list i{
+.about-1 .icon-list .list i {
     background-color: #49447C;
     height: 64px;
     width: 64px;
@@ -2942,12 +2946,12 @@ p.section.desc {
     font-size: 24px;
 }
 
-.about-1 .icon-list .list h5{
+.about-1 .icon-list .list h5 {
     font-weight: 700 !important;
 }
 
-.about-1 .btn{
-        background-color: #E0342C;
+.about-1 .btn {
+    background-color: #E0342C;
     color: #fff;
     border-radius: 20px;
     padding-top: 10px;
@@ -2957,26 +2961,26 @@ p.section.desc {
     font-weight: 700;
 }
 
-.about-1 .btn:hover{
+.about-1 .btn:hover {
     background-color: #f8e710;
 }
 
-.about-2 .outer-box{
+.about-2 .outer-box {
     background-color: #49447C;
     padding: 8px;
     border-radius: 10px;
     transition: 0.3s ease-in-out;
 }
 
-.about-2 .outer-box:hover{
+.about-2 .outer-box:hover {
     background-color: #f8e710;
 }
 
-.about-2 .inner-box{
-        clip-path: polygon(0% 0%, 75% 0%, 100% 20%, 100% 100%, 0% 100%);
-        background-color: #fff;
-        padding: 20px;
-        border-radius: 10px;
+.about-2 .inner-box {
+    clip-path: polygon(0% 0%, 75% 0%, 100% 20%, 100% 100%, 0% 100%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .about-2 .inner-box i {
@@ -2986,4 +2990,109 @@ p.section.desc {
 
 .about-2 h3.box-title {
     font-weight: 700 !important;
+}
+
+
+.about-3 {
+    background-color: #49447C;
+}
+
+.about-3 h2.section-title {
+    /* font-weight: 700 !important; */
+    margin-bottom: 30px;
+    font-size: 48px;
+    /* color: #56225e; */
+    color: #fff;
+    /* margin: 0; */
+    font-weight: bold !important;
+}
+
+.about-3 .accordion-group {
+    width: 100%;
+    max-width: 550px;
+    box-sizing:
+        border-box;
+    font-size: 14px;
+}
+
+.about-3 .acc-item {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    overflow: hidden;
+    box-shadow: 0 4px calc(4px * 2) rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+}
+
+.about-3 .acc-item {
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+
+.about-3 .acc-item:last-child {
+    margin-bottom: 0;
+}
+
+.about-3 summary {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    list-style: none;
+    font-weight: 600;
+    color: #1e293b;
+    transition: background 0.2s ease;
+}
+
+.about-3 summary:hover {
+    background: #f8fafc;
+}
+
+.about-3 summary::-webkit-details-marker {
+    display: none;
+}
+
+.about-3 .acc-icon {
+    color: #49447c;
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.about-3 .content-wrapper {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease;
+    background: #ffffff;
+}
+
+.about-3 .content-body {
+    padding: 20px;
+    color: #64748b;
+    line-height: 1.6;
+}
+
+.about-3 .acc-item.is-open .acc-icon {
+    transform: rotate(45deg);
+}
+
+.about-3 img.img-fluid {
+    border-radius: 10px;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 20%, 100% 100%, 0% 100%);
+}
+
+.about-4 .heading {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-4 .heading .section-title {
+    color: #49447C;
+    /* font-weight: 700 !important; */
+    margin-bottom: 30px;
+    font-size: 48px;
+    /* color: #56225e; */
+    /* color: #fff; */
+    /* margin: 0; */
+    font-weight: bold !important;
 }

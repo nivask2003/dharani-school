@@ -69,7 +69,7 @@ include 'function.php';
         </div>
     </section>
 
-    <section class="about-2">
+    <section class="about-2 py-5">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-4 col-lg-4">
@@ -105,6 +105,95 @@ include 'function.php';
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+    <section class="about-3 py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <img src="Assets\Images\about-img2.webp" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <span class="badge"><i class="bi bi-mortarboard-fill"></i>  Know SDIS</span>
+                    <h2 class="section-title">Inside Our Institution</h2>
+                    <div class="accordion-group">
+  <details class="acc-item">
+    <summary>
+      <span>Our Legacy</span>
+	  <span class="acc-icon">+</span>
+    </summary>
+    <div class="content-wrapper">
+      <div class="content-body">
+	    Founded in 2013, Sri Dharani International School has built a strong reputation for academic excellence, discipline, innovation, and holistic student development. The institution combines modern learning methods with strong traditional values to nurture confident, responsible, and skilled individuals who excel in academics, sports, cultural activities, leadership, and lifelong learning.
+	  </div>
+    </div>
+  </details>
+  <details class="acc-item">
+    <summary>
+      <span>Our Educational Philosophy</span>
+	  <span class="acc-icon">+</span>
+    </summary>
+    <div class="content-wrapper">
+      <div class="content-body">
+	    At Sri Dharani International School, education is a journey that nurtures character, creativity, knowledge, and responsibility. The school believes every child has unique potential and provides a supportive environment for holistic growth. SDIS emphasizes experiential learning, critical thinking, leadership, communication skills, discipline, ethics, and values to develop confident, compassionate, and socially responsible lifelong learner
+	  </div>
+    </div>
+  </details>
+  <details class="acc-item">
+    <summary>
+      <span>Journey of SDIS</span>
+	  <span class="acc-icon">+</span>
+    </summary>
+    <div class="content-wrapper">
+      <div class="content-body">
+	    The journey of Sri Dharani International School began with a vision to provide quality CBSE education in Gingee and nearby regions. From humble beginnings, the institution has grown into a modern campus known for academic excellence, discipline, and holistic learning. Through dedicated leadership, skilled educators, supportive parents, and talented students, SDIS continues to expand its infrastructure, programs, technology, and extracurricular opportunities.
+	  </div>
+    </div>
+  </details>
+  <details class="acc-item">
+    <summary>
+      <span>School Overview</span>
+	  <span class="acc-icon">+</span>
+    </summary>
+    <div class="content-wrapper">
+      <div class="content-body">
+	    Sri Dharani International School is a co-educational CBSE institution offering classes from Pre-KG to Class XII. Located in Gingee, Tamil Nadu, the school provides a balanced curriculum that promotes academic excellence, creativity, discipline, leadership, physical fitness, and emotional wellbeing. SDIS combines modern teaching methods with strong traditional values to create a supportive, inspiring, and student-focused learning environment.
+	  </div>
+    </div>
+  </details>
+  <details class="acc-item">
+    <summary>
+      <span>Campus Information</span>
+	  <span class="acc-icon">+</span>
+    </summary>
+    <div class="content-wrapper">
+      <div class="content-body">
+	    The campus of Sri Dharani International School is designed to provide a safe, spacious, eco-friendly, and student-friendly learning environment. Located in a peaceful atmosphere, the campus supports academic and extracurricular growth through well-planned facilities. Separate academic blocks for different age groups ensure comfortable learning spaces, while the positive educational environment encourages students to learn, explore, and grow with confidence.
+	  </div>
+    </div>
+  </details>
+  <details class="acc-item">
+    <summary>
+      <span>Infrastructure Overview</span>
+	  <span class="acc-icon">+</span>
+    </summary>
+    <div class="content-wrapper">
+      <div class="content-body">
+	    Sri Dharani International School provides modern infrastructure that supports innovative learning, effective teaching, and holistic student development. The campus features smart classrooms, science and computer labs, language and mathematics labs, a well-equipped library, sports facilities, CCTV surveillance, RO drinking water, and dedicated kindergarten play areas. These facilities create a safe, comfortable, and technology-enabled environment for quality education and student wellbeing.
+	  </div>
+    </div>
+  </details>
+</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about-4 py-5">
+        <div class="container">
+            <div class="heading">
+                <span class="badge"><i class="bi bi-mortarboard-fill"></i>  School Statistics</span>
+                <h2 class="section-title">Academic & Campus Key Statistics</h2>
             </div>
         </div>
     </section>
