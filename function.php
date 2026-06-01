@@ -56,7 +56,7 @@ function template_header(){
             <nav class="navbar navbar-expand-xl navbar-light p-0">
 
                 <!-- Logo -->
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="index.php">
                     <img src="Assets/Images/logo.webp" alt="Logo" class="img-fluid">
                 </a>
 

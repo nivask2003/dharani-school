@@ -7,7 +7,7 @@ include 'function.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sri Dharani International School</title>
+    <title>About Us - Sri Dharani International School</title>
     <link rel="stylesheet" href="Assets/CSS/style.css">
     <link rel="shortcut icon" href="Assets/Images/favicon.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -27,7 +27,7 @@ include 'function.php';
     </section>
     <section class="about-1 py-5">
         <div class="container">
-            <div class="row">
+            <div class="row about-row">
                 <div class="col-12 col-md-6 col-lg-6">
                 <span class="badge"><i class="bi bi-mortarboard-fill"></i> About School</span>
                 <h2 class="section-title">Empowering Futures Through Education</h2>
@@ -194,6 +194,64 @@ include 'function.php';
             <div class="heading">
                 <span class="badge"><i class="bi bi-mortarboard-fill"></i>  School Statistics</span>
                 <h2 class="section-title">Academic & Campus Key Statistics</h2>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="box">
+                        <div class="icon-circle">
+                            <i class="bi bi-calendar-check"></i>
+                        </div>
+                        <h3 class="box-title">Established Institution</h3>
+                        <p class="box-desc">Founded in 2013, SDIS has grown into a trusted CBSE institution known for quality education and student development.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="box">
+                        <div class="icon-circle">
+                            <i class="bi bi-mortarboard"></i>
+                        </div>
+                        <h3 class="box-title">CBSE Curriculum</h3>
+                        <p class="box-desc">The school offers structured CBSE education from Pre-KG to Class XII with balanced academic and skill-based learning.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="box">
+                        <div class="icon-circle">
+                            <i class="bi bi-easel"></i>
+                        </div>
+                        <h3 class="box-title">Smart Classrooms</h3>
+                        <p class="box-desc">Modern smart classrooms improve learning, creativity, student engagement, understanding, and academic performance.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row r2">
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="box">
+                        <div class="icon-circle">
+                            <i class="bi bi-eyedropper"></i>
+                        </div>
+                        <h3 class="box-title">Advanced Laboratories</h3>
+                        <p class="box-desc">Well-equipped science, computer, language, and mathematics laboratories provide practical exposure and encourage innovation among students daily.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="box">
+                        <div class="icon-circle">
+                            <i class="bi bi-dribbble"></i>
+                        </div>            
+                        <h3 class="box-title">Sports Facilities</h3>
+                        <p class="box-desc">Comprehensive sports infrastructure supports physical fitness, teamwork, discipline, confidence, and overall personality development for every student.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="box">
+                        <div class="icon-circle">
+                            <i class="bi bi-shield-check"></i>
+                        </div>
+                        <h3 class="box-title">Safe Campus</h3>
+                        <p class="box-desc">The secure campus environment includes CCTV surveillance, safe facilities, disciplined surroundings, and student-friendly educational spaces for learning.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

@@ -3096,3 +3096,390 @@ p.section.desc {
     /* margin: 0; */
     font-weight: bold !important;
 }
+
+.about-4 .box {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    background: #49447c0f;
+    border-radius: 20px;
+}
+
+.about-4 .box p.box-desc {
+    text-align: center;
+}
+
+.about-4 .box .icon-circle {
+    height: 64px;
+    width: 64px;
+    background: #474279;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.about-4 .box i{
+        color: #fff;
+    font-size: 24px;
+    transition: 0.3s ease-in-out;
+}
+
+.about-4 .box .box-title{
+        font-size: 20px;
+    font-weight: 700 !important;
+    margin-top: 18px;
+}
+
+.about-4 .box:hover{
+    background-color: #474279;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+.about-4 .box:hover .icon-circle{
+    background-color: #fff;
+}
+
+.about-4 .box:hover .icon-circle i{
+    color: #474279;
+}
+
+.about-4 .r2.row {
+    margin-top: 22px !important;
+}
+/* =========================================================
+   ABOUT PAGE — FULL RESPONSIVE + ZOOM FIX
+   Covers: page-banner, about-1, about-2, about-3, about-4
+   All breakpoints + zoom levels (75%–150%)
+========================================================= */
+
+/* ---- Page Banner ---- */
+section.page-banner {
+    height: clamp(160px, 20vw, 280px);
+    padding: 20px;
+    text-align: center;
+}
+
+section.page-banner .banner-title {
+    font-size: clamp(28px, 5vw, 56px);
+    line-height: 1.2;
+}
+
+@media (max-width: 991px) {
+    section.page-banner {
+        height: clamp(140px, 22vw, 220px);
+    }
+}
+
+@media (max-width: 575px) {
+    section.page-banner {
+        height: auto;
+        min-height: 130px;
+        padding: 30px 16px;
+    }
+    section.page-banner .banner-title {
+        font-size: clamp(24px, 7vw, 36px);
+    }
+}
+
+/* ---- About-1 ---- */
+.about-1 .section-title {
+    font-size: clamp(24px, 3.5vw, 44px);
+    line-height: 1.25;
+}
+
+.about-1 .section-desc {
+    font-size: clamp(14px, 1.5vw, 16px);
+    line-height: 1.8;
+}
+
+.about-1 .icon-list .list i {
+    flex-shrink: 0;
+    height: clamp(44px, 5.5vw, 64px);
+    width: clamp(44px, 5.5vw, 64px);
+    font-size: clamp(18px, 2.2vw, 24px);
+}
+
+.about-1 .icon-list .list h5 {
+    font-size: clamp(13px, 1.4vw, 16px);
+}
+
+/* Image column: add top spacing when stacked */
+@media (max-width: 767px) {
+    .about-1 .col-12.col-md-6:last-child {
+        margin-top: 30px;
+    }
+    .about-1 .section-title {
+        font-size: 24px;
+    }
+    .about-1 .icon-list .list i {
+        height: 46px;
+        width: 46px;
+        font-size: 20px;
+    }
+    .about-1 .icon-list .list h5 {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-1 .badge {
+        font-size: 11px !important;
+        letter-spacing: 2px !important;
+    }
+}
+
+/* ---- About-2 ---- */
+.about-2 .row {
+    row-gap: 24px;
+}
+
+.about-2 .outer-box {
+    height: 100%;
+}
+
+.about-2 .inner-box {
+    height: 100%;
+    /* Soften clip-path at small sizes to avoid cropping */
+    clip-path: polygon(0% 0%, 85% 0%, 100% 12%, 100% 100%, 0% 100%);
+}
+
+.about-2 h3.box-title {
+    font-size: clamp(17px, 2vw, 22px);
+}
+
+.about-2 .inner-box i {
+    font-size: clamp(30px, 3.5vw, 42px);
+}
+
+.about-2 .inner-box p {
+    font-size: clamp(13px, 1.4vw, 15px);
+    line-height: 1.75;
+}
+
+@media (max-width: 767px) {
+    .about-2 .inner-box {
+        clip-path: polygon(0% 0%, 88% 0%, 100% 10%, 100% 100%, 0% 100%);
+        padding: 18px;
+    }
+    .about-2 h3.box-title {
+        font-size: 18px;
+    }
+    .about-2 .inner-box i {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-2 .inner-box {
+        clip-path: none;
+        border-radius: 10px;
+    }
+}
+
+/* ---- About-3 ---- */
+.about-3 h2.section-title {
+    font-size: clamp(26px, 4vw, 48px) !important;
+    line-height: 1.2;
+    margin-bottom: 24px;
+}
+
+.about-3 .accordion-group {
+    max-width: 100%;
+    width: 100%;
+}
+
+.about-3 img.img-fluid {
+    width: 100%;
+    height: auto;
+    max-height: 520px;
+    object-fit: cover;
+}
+
+/* Image col: add bottom spacing when stacked */
+@media (max-width: 767px) {
+    .about-3 .col-12.col-md-6:first-child {
+        margin-bottom: 28px;
+    }
+    .about-3 h2.section-title {
+        font-size: 26px !important;
+    }
+    .about-3 img.img-fluid {
+        clip-path: none;
+        border-radius: 10px;
+        max-height: 280px;
+    }
+    .about-3 .badge {
+        font-size: 11px !important;
+        letter-spacing: 2px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-3 summary {
+        padding: 14px 12px;
+        font-size: 14px;
+    }
+    .about-3 .content-body {
+        padding: 14px;
+        font-size: 13px;
+    }
+    .about-3 .acc-item {
+        margin-bottom: 8px;
+    }
+}
+
+/* ---- About-4 ---- */
+.about-4 .heading .section-title {
+    font-size: clamp(24px, 4vw, 48px) !important;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.about-4 .heading .badge {
+    font-size: clamp(11px, 1.4vw, 18px) !important;
+    letter-spacing: clamp(2px, 0.4vw, 4px) !important;
+}
+
+.about-4 .row {
+    row-gap: 24px;
+}
+
+.about-4 .r2.row {
+    margin-top: 0;    /* row-gap handles spacing instead */
+}
+
+.about-4 .box {
+    height: 100%;
+    padding: clamp(14px, 2vw, 20px);
+}
+
+.about-4 .box .box-title {
+    font-size: clamp(15px, 1.8vw, 20px);
+}
+
+.about-4 .box p.box-desc {
+    font-size: clamp(13px, 1.4vw, 15px);
+    line-height: 1.75;
+}
+
+.about-4 .box .icon-circle {
+    height: clamp(50px, 5.5vw, 64px);
+    width: clamp(50px, 5.5vw, 64px);
+    flex-shrink: 0;
+}
+
+.about-4 .box i {
+    font-size: clamp(18px, 2vw, 24px);
+}
+
+@media (max-width: 991px) {
+    .about-4 .col-12.col-md-4.col-lg-4 {
+        /* ensure 2-col on tablet handled by Bootstrap col-md */
+    }
+}
+
+@media (max-width: 767px) {
+    .about-4 .heading .section-title {
+        font-size: 24px !important;
+    }
+    .about-4 .box .box-title {
+        font-size: 17px;
+    }
+    .about-4 .box p.box-desc {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-4 .box {
+        padding: 16px;
+    }
+    .about-4 .box .icon-circle {
+        height: 52px;
+        width: 52px;
+    }
+    .about-4 .box i {
+        font-size: 20px;
+    }
+}
+
+/* ---- About sections: general spacing tightening on mobile ---- */
+@media (max-width: 767px) {
+    .about-1.py-5,
+    .about-2.py-5,
+    .about-3.py-5,
+    .about-4.py-5 {
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-1.py-5,
+    .about-2.py-5,
+    .about-3.py-5,
+    .about-4.py-5 {
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+    }
+    /* Container padding for very small screens */
+    .about-1 .container,
+    .about-2 .container,
+    .about-3 .container,
+    .about-4 .container {
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+    }
+}
+
+/* ---- Zoom-level stability (applies at all screen sizes) ---- */
+.about-1,
+.about-2,
+.about-3,
+.about-4 {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.about-1 .row,
+.about-2 .row,
+.about-3 .row,
+.about-4 .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+/* Prevent inner-box clip-path from hiding content at 110–150% zoom */
+@media (min-width: 1200px) {
+    .about-2 .inner-box {
+        clip-path: polygon(0% 0%, 82% 0%, 100% 14%, 100% 100%, 0% 100%);
+    }
+}
+
+@media(max-width:482px){
+    .about-row.row {
+    flex-direction: column-reverse !important; 
+}
+}
+
+section.page-banner-message {
+    height: 262px;
+    width: 100%;
+    background-image: linear-gradient(135deg, #49447C, transparent), url(../Images/message-bg.webp);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0 !important;
+}
+
+section.page-banner .banner-title {
+    color: #fff;
+    font-weight: 700 !important;
+}
