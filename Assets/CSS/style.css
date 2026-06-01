@@ -3483,3 +3483,22 @@ section.page-banner .banner-title {
     color: #fff;
     font-weight: 700 !important;
 }
+
+
+.founder-1 .section-title {
+    color: #49447C;
+    color: #49447C;
+    /* font-weight: 700 !important; */
+    margin-bottom: 30px;
+    font-size: 48px;
+    /* color: #56225e; */
+    /* color: #fff; */
+    /* margin: 0; */
+    font-weight: bold !important;
+}
+
+.founder-1 .col-12.col-lg-6.col-md-6.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

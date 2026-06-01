@@ -25,6 +25,20 @@ include 'function.php';
     <section class="page-banner-message">
         <h1 class="banner-title">Founder Message</h1>
     </section>
+    <section class="founder-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6">
+                    <img src="Assets\Images\founder-img.webp" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 content">
+                    <h2 class="section-title">Dr. K.K. Dhandapani</h2>
+                    <p class="section-desc">Dr. K.K. Dhandapani, the Founder and Managing Trustee of Sri Dharani International School, is a visionary educationalist, eminent advocate, and respected social contributor dedicated to promoting quality education and value-based learning. With a progressive vision and strong commitment to academic excellence, he established the institution to provide world-class education for students from both rural and urban communities. His leadership is rooted in discipline, integrity, innovation, and holistic student development.</p>
+                    <p class="section-desc">Under his guidance, Sri Dharani International School has grown into a reputed CBSE institution known for academic excellence, moral values, and modern infrastructure. Dr. K.K. Dhandapani believes education should empower students with knowledge, confidence, leadership skills, and social responsibility. His dedication towards educational advancement and student welfare continues to inspire the entire school community while shaping future leaders who contribute positively to society and the nation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
     <?=template_footer()?>
      <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
