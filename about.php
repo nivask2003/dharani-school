@@ -74,19 +74,35 @@ include 'function.php';
             <div class="row">
                 <div class="col-12 col-md-4 col-lg-4">
                     <div class="outer-box">
-                        <div class="icon-circle">
-                            <i class="bi bi-eye"></i>
+                        <div class="inner-box">
+                            <div class="icon-circle">
+                                <i class="bi bi-eye"></i>
+                            </div>
+                            <h3 class="box-title">Our Vision</h3>
+                            <p class="box-desc">To create and empower innovative learning experiences by imparting quality education that meets global standards and nurtures responsible, confident, and compassionate future leaders.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 col-lg-4">
                     <div class="outer-box">
-                        
+                        <div class="inner-box">
+                            <div class="icon-circle">
+                                <i class="bi bi-bullseye"></i>
+                            </div>
+                            <h3 class="box-title">Our Mission</h3>
+                            <p class="box-desc">Sri Dharani International School nurtures academic excellence, discipline, creativity, leadership, and values through holistic education and innovative modern learning methods daily!</p>
+                        </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 col-lg-4">
                     <div class="outer-box">
-                        
+                        <div class="inner-box">
+                            <div class="icon-circle">
+                                <i class="bi bi-chat-quote"></i>
+                            </div>
+                            <h3 class="box-title">School Moto</h3>
+                            <p class="box-desc">“Truth, Trust and Triumph” inspires students to build integrity, confidence, discipline, and perseverance while achieving academic excellence and personal growth with strong values.</p>
+                        </div>
                     </div>
                 </div>
             </div>

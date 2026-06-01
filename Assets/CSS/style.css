@@ -1383,7 +1383,7 @@ h6 {
 
 .footer-title {
     color: #ffffff;
-    font-size: 34px;
+    font-size: 26px;
     font-weight: 700;
     margin-bottom: 35px;
 }
@@ -2963,29 +2963,27 @@ p.section.desc {
 
 .about-2 .outer-box{
     background-color: #49447C;
-    height: 400px;
-    width: auto;
-    border-radius: 20px;
-    position: relative;
-    transition: 0.3s ease-in-out;;
+    padding: 8px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
 }
 
 .about-2 .outer-box:hover{
     background-color: #f8e710;
 }
 
-.about-2 .outer-box::before{
-    content: "";
-    position: absolute;
-    background-color: #fff;
-    height: 96%;
-    width: 96%;
-    border-radius: 20px;
+.about-2 .inner-box{
         clip-path: polygon(0% 0%, 75% 0%, 100% 20%, 100% 100%, 0% 100%);
-    margin-top: 8px;
-    margin-bottom: 8px;
-    margin-right: 8px;
-    margin-left: 8px;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+}
 
+.about-2 .inner-box i {
+    font-size: 42px;
+    color: #49447c;
+}
 
+.about-2 h3.box-title {
+    font-weight: 700 !important;
 }
