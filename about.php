@@ -22,6 +22,76 @@ include 'function.php';
 
 <body>
     <?=template_header()?>
+      <section class="page-banner">
+        <h1 class="banner-title">About</h1>
+    </section>
+    <section class="about-1 py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6">
+                <span class="badge"><i class="bi bi-mortarboard-fill"></i> About School</span>
+                <h2 class="section-title">Empowering Futures Through Education</h2>
+                <p class="section-desc">Sri Dharani International School, located in Gingee, is a premier CBSE educational institution dedicated to shaping young minds through academic excellence, discipline, innovation, and value-based learning. Established under the guidance of the Sri Dharani Educational Trust, the school has earned a strong reputation as one of the trusted centers of education in Villupuram District, Tamil Nadu. Affiliated with the <span>Central Board of Secondary Education (CBSE), New Delhi</span>, the institution offers quality education from Pre-KG to Class XII through a learner-centered approach that blends academic strength with creativity, leadership, and essential life skills.</p>
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <ul class="icon-list">
+                            <li class="list">
+                                <i class="bi bi-mortarboard-fill"></i>
+                                <h5>CBSE Curriculum</h5>
+                            </li>
+                            <li class="list">
+                                <i class="bi bi-lightbulb-fill"></i>
+                                <h5>Innovative Learning</h5>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <ul class="icon-list">
+                            <li class="list">
+                                <i class="bi bi-people-fill"></i>
+                                <h5>Holistic Growth</h5>
+                            </li>
+                            <li class="list">
+                                <i class="bi bi-building-fill-check"></i>
+                                <h5>Modern Infrastructure</h5>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="contact.php" class="btn">Contact Us</a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6">
+                <img src="Assets\Images\about-img.png" alt="" class="img-fluid">
+            </div>
+            </div>
+            
+
+        </div>
+    </section>
+
+    <section class="about-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="outer-box">
+                        <div class="icon-circle">
+                            <i class="bi bi-eye"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="outer-box">
+                        
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="outer-box">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <?=template_footer()?>
      <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

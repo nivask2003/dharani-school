@@ -187,6 +187,8 @@ function template_footer(){
 
             <!-- Quick Links -->
             <div class="col-lg-2 col-md-6">
+                <div class="quick-links">
+                </div>
 
                 <h4 class="footer-title">
                     Quick links
@@ -274,10 +276,16 @@ function template_footer(){
 
                     <div class="footer-contact-item">
                         <i class="bi bi-telephone-fill"></i>
+                        <ul style="list-style-type:none; padding:0">
+                        <li><a href="tel:04145290101">
+                            04145290101
+                        </a></li>
+                        <li><a href="tel:+917339075714">+917339075714</a></li>
+                        <li><a href="tel:+919381422260">+919381422260</a></li>
+                        </ul>
 
-                        <a href="tel:04145290101">
-                            04145 290101
-                        </a>
+                        
+                        
                     </div>
 
                 </div>

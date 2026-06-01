@@ -53,7 +53,7 @@ include 'function.php';
                             <i class="bi bi-telephone"></i>
                         </div>
                         <h3 class="box-title">Call Us</h3>
-                        <p class="box-desc"><a href="tel:04145 290101">04145 290101</a></p>
+                        <p class="box-desc"><a href="tel:04145 290101">04145 290101</a><br><a href="tel:+917339075714">+917339075714</a>, <a href="tel:+917339075714">+917339075714</a></p>
                     </div>
                 </div>
             </div>

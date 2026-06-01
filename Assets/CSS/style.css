@@ -1978,6 +1978,7 @@ section.page-banner {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 0 !important;
 }
 
 section.page-banner .banner-title {
@@ -2065,7 +2066,7 @@ section.contact-1 .box {
     }
 
     section.page-banner {
-        margin-top: 184px;
+        margin-top: 0 !important;
         height: auto;
         padding: 50px 20px;
     }
@@ -2089,7 +2090,7 @@ section.contact-1 .box {
     }
 
     section.page-banner {
-        margin-top: 184px;
+        margin-top: 0 !important;
     }
 }
 
@@ -2883,4 +2884,108 @@ p.section.desc {
 .testimonial-section .carousel-control-next {
     right: -129px;
     top: 167px;
+}
+
+
+
+.about-1 p.section-desc {
+    text-align: justify;
+}
+
+.about-1 .icon-box {
+       padding: 20px;
+    background: #49447c;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80px;
+}
+
+.about-1 .icon-box i{
+    font-size: 34px;
+    color: #fff;
+}
+
+.about-1 h3.icon-box-title {
+    font-size: 24px;
+}
+
+.about-1 .col-6.col-lg-4.col-md-4.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-1 .icon-list{
+    list-style-type: none;
+    padding: 0;
+}
+
+.about-1 .icon-list .list{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.about-1 .icon-list .list i{
+    background-color: #49447C;
+    height: 64px;
+    width: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 24px;
+}
+
+.about-1 .icon-list .list h5{
+    font-weight: 700 !important;
+}
+
+.about-1 .btn{
+        background-color: #E0342C;
+    color: #fff;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-weight: 700;
+}
+
+.about-1 .btn:hover{
+    background-color: #f8e710;
+}
+
+.about-2 .outer-box{
+    background-color: #49447C;
+    height: 400px;
+    width: auto;
+    border-radius: 20px;
+    position: relative;
+    transition: 0.3s ease-in-out;;
+}
+
+.about-2 .outer-box:hover{
+    background-color: #f8e710;
+}
+
+.about-2 .outer-box::before{
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    height: 96%;
+    width: 96%;
+    border-radius: 20px;
+        clip-path: polygon(0% 0%, 75% 0%, 100% 20%, 100% 100%, 0% 100%);
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    margin-left: 8px;
+
+
 }
