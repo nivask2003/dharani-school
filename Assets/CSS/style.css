@@ -3466,10 +3466,19 @@ section.page-banner .banner-title {
 }
 }
 
+/* ==========================================================
+   CHAIRMAN MESSAGE PAGE — RESPONSIVE + ZOOM-LEVEL FIX
+   Covers: page-banner-message, founder-1
+   All breakpoints + zoom levels (75% – 150%)
+========================================================== */
+
+/* ---- Page Banner: Message ---- */
 section.page-banner-message {
-    height: 262px;
+    /* clamp: min 140px  →  scales with viewport  →  max 300px */
+    height: clamp(140px, 20vw, 300px);
     width: 100%;
-    background-image: linear-gradient(135deg, #49447C, transparent), url(../Images/message-bg.webp);
+    background-image: linear-gradient(135deg, #49447C, transparent),
+                      url(../Images/message-bg.webp);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -3477,6 +3486,19 @@ section.page-banner-message {
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 0 !important;
+    /* prevent horizontal bleed at any zoom */
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 20px 16px;
+}
+
+section.page-banner-message .banner-title {
+    color: #fff;
+    font-weight: 700 !important;
+    font-size: clamp(26px, 5vw, 52px);
+    line-height: 1.2;
+    text-align: center;
+    margin: 0;
 }
 
 section.page-banner .banner-title {
@@ -3484,21 +3506,121 @@ section.page-banner .banner-title {
     font-weight: 700 !important;
 }
 
+/* ---- Founder / Chairman content section ---- */
+.founder-1 {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.founder-1 .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
 
 .founder-1 .section-title {
     color: #49447C;
-    color: #49447C;
-    /* font-weight: 700 !important; */
-    margin-bottom: 30px;
-    font-size: 48px;
-    /* color: #56225e; */
-    /* color: #fff; */
-    /* margin: 0; */
     font-weight: bold !important;
+    margin-bottom: 30px;
+    /* fluid: never smaller than 28px, never larger than 48px */
+    font-size: clamp(28px, 4vw, 48px);
+    line-height: 1.2;
+}
+
+.founder-1 .section-desc {
+    font-size: clamp(14px, 1.5vw, 16px);
+    line-height: 1.85;
 }
 
 .founder-1 .col-12.col-lg-6.col-md-6.content {
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+.founder-1 img.img-fluid {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* ---- Tablet (≤ 991px) ---- */
+@media (max-width: 991px) {
+    section.page-banner-message {
+        height: clamp(130px, 22vw, 220px);
+    }
+
+    .founder-1 .section-title {
+        font-size: clamp(26px, 4.5vw, 38px);
+    }
+}
+
+/* ---- Stacked / Mobile (≤ 767px) ---- */
+@media (max-width: 767px) {
+    .founder-1 .col-12.col-md-6:first-child {
+        margin-bottom: 28px;
+    }
+
+    .founder-1 .section-title {
+        font-size: 26px;
+    }
+
+    .founder-1 .section-desc {
+        font-size: 15px;
+    }
+}
+
+/* ---- Small Mobile (≤ 575px) ---- */
+@media (max-width: 575px) {
+    section.page-banner-message {
+        height: auto;
+        min-height: 120px;
+        padding: 30px 16px;
+    }
+
+    section.page-banner-message .banner-title {
+        font-size: clamp(22px, 7vw, 34px);
+    }
+
+    section.page-banner.gallery {
+        height: auto;
+        min-height: 130px;
+        padding: 30px 16px;
+    }
+
+    .founder-1 .section-title {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .founder-1 .section-desc {
+        font-size: 14px;
+        line-height: 1.75;
+    }
+
+    .founder-1 .container {
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+    }
+}
+
+/* ---- Very Small (≤ 400px) ---- */
+@media (max-width: 400px) {
+    .founder-1 .section-title {
+        font-size: 22px;
+    }
+}
+
+/* ---- Section vertical padding tightening on mobile ---- */
+@media (max-width: 767px) {
+    .founder-1.py-5 {
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .founder-1.py-5 {
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+    }
 }
