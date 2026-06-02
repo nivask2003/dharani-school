@@ -3624,3 +3624,253 @@ section.page-banner .banner-title {
         padding-bottom: 30px !important;
     }
 }
+
+
+section.page-banner-trust {
+    /* clamp: min 140px  →  scales with viewport  →  max 300px */
+    height: clamp(140px, 20vw, 300px);
+    width: 100%;
+    background-image: linear-gradient(135deg, #49447C, transparent),
+                      url(../Images/banner-bg.webp  );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0 !important;
+    /* prevent horizontal bleed at any zoom */
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 20px 16px;
+}
+
+section.page-banner-trust .banner-title {
+    color: #fff;
+    font-weight: 700 !important;
+    font-size: clamp(26px, 5vw, 52px);
+    line-height: 1.2;
+    text-align: center;
+    margin: 0;
+}
+
+section.page-banner .banner-title {
+    color: #fff;
+    font-weight: 700 !important;
+}
+
+.trust-1 .section-title {
+    color: #49447C;
+    font-size: 48px;
+    /* color: #56225e; */
+    color: #49447c;
+    margin: 0;
+    font-weight: bold !important;
+}
+
+.trust-1 img.img-fluid {
+    width: 506px;
+    border-radius: 10px;
+    clip-path: polygon(0% 0%, 85% 0%, 100% 12%, 100% 100%, 0% 100%);
+}
+
+/* =========================================
+   TRUST CAROUSEL
+========================================= */
+
+.trust-2 {
+    padding: 80px 0 100px;
+    overflow: hidden;
+    position: relative;
+}
+
+.trust-2 .section-title {
+    color: #49447C;
+    color: #49447C;
+    font-size: 48px;
+    /* color: #56225e; */
+    color: #49447c;
+    margin: 0;
+    font-weight: bold !important;
+}
+
+.trust-2 .heading {
+    margin-bottom: 50px;
+}
+
+/* Outer wrapper clips overflow and holds the buttons */
+.trust-carousel-wrapper {
+    position: relative;
+    overflow: hidden;
+    padding: 10px 0 20px;
+}
+
+/* The scrolling track */
+.trust-carousel {
+    display: flex;
+    gap: 30px;
+    transition: transform 0.45s cubic-bezier(0.25, 0.8, 0.25, 1);
+    will-change: transform;
+}
+
+/* =========================================
+   Team Card
+========================================= */
+
+.team-member {
+    flex: 0 0 calc((100% - 60px) / 3); /* 3 visible on desktop */
+    background: #f5f5f5;
+    border-radius: 24px;
+    padding: 20px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.team-member:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 16px 40px rgba(73, 68, 124, 0.15);
+}
+
+.team-member img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 18px;
+}
+
+.team-name {
+    font-size: 24px;
+    font-weight: 700 !important;
+    margin-top: 20px;
+    text-align: center;
+    color: #49447C;
+}
+
+.destination {
+    text-align: center;
+    color: #E0342C;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+/* =========================================
+   Prev / Next Buttons
+========================================= */
+
+.trust-carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 2px solid #49447C;
+    background: #fff;
+    color: #49447C;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;
+    transition: background 0.3s, color 0.3s, opacity 0.3s;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+}
+
+.trust-carousel-btn:hover {
+    background: #49447C;
+    color: #fff;
+}
+
+.trust-carousel-btn:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+.trust-carousel-prev {
+    left: -24px;
+}
+
+.trust-carousel-next {
+    right: -24px;
+}
+
+/* =========================================
+   Dot Indicators
+========================================= */
+
+.trust-carousel-dots {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 32px;
+}
+
+.trust-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: none;
+    background: #ccc;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+    padding: 0;
+}
+
+.trust-dot.active {
+    background: #49447C;
+    transform: scale(1.3);
+}
+
+/* =========================================
+   Responsive
+========================================= */
+
+@media (max-width: 991px) {
+    .team-member {
+        flex: 0 0 calc((100% - 30px) / 2); /* 2 visible on tablet */
+    }
+}
+
+@media (max-width: 575px) {
+    .team-member {
+        flex: 0 0 100%; /* 1 visible on mobile */
+    }
+
+    .team-member img {
+        height: 260px;
+    }
+
+    .trust-carousel-prev { left: 0; }
+    .trust-carousel-next { right: 0; }
+}
+
+.trust-3 .outer-box{
+    background-color: #474279;
+    padding: 8px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.trust-3 .outer-box:hover{
+    background-color: #f8e710;
+}
+
+.trust-3 .outer-box .inner-box{
+    background-color: #fff;
+    padding: 10px;
+    clip-path: polygon(0% 0%, 85% 0%, 100% 12%, 100% 100%, 0% 100%);
+    border-radius: 10px;
+
+}
+
+.trust-3 .outer-box .inner-box .section-title {
+    color: #49447C;
+    font-size: 30px;
+    color: rgb(73, 68, 124);
+    font-weight: bold !important;
+    margin: 0px;
+}
+
+.trust-3 .outer-box .inner-box p.section-desc {
+    margin-top: 20px;
+}
