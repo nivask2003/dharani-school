@@ -4552,3 +4552,676 @@ section.page-banner .banner-title {
         font-size:18px;
     }
 }
+
+/* ==========================================================
+   ACADEMICS PAGE — FULL RESPONSIVE + ZOOM-LEVEL FIX
+   Covers: page-banner-academics, academics-1 through academics-8,
+           education-section
+   All breakpoints + zoom levels (75% – 150%)
+========================================================== */
+
+/* ---- General: prevent overflow on all academics sections ---- */
+.academics-1,
+.academics-2,
+.academics-3,
+.academics-4,
+.academics-5,
+.academics-6,
+.academics-7,
+.academics-8,
+.education-section {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.academics-1 .row,
+.academics-2 .row,
+.academics-3 .row,
+.academics-4 .row,
+.academics-5 .row,
+.academics-6 .row,
+.academics-7 .row,
+.academics-8 .row,
+.education-section .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+/* ---- academics-1 section title & desc ---- */
+.academics-1 .section-title {
+    font-size: clamp(24px, 3.5vw, 44px);
+    line-height: 1.25;
+    margin-top: 12px;
+}
+
+.academics-1 .section-desc {
+    font-size: clamp(14px, 1.5vw, 16px);
+    line-height: 1.8;
+}
+
+/* academics-1 icon-box rows: fix layout on small screens */
+.academics-1 .icon-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
+    width: 56px;
+    min-width: 56px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.academics-1 .icon-number {
+    font-size: clamp(20px, 2.5vw, 28px);
+    font-weight: 700 !important;
+    margin: 0;
+    color: #49447C;
+}
+
+.academics-1 .icon-title {
+    font-size: clamp(12px, 1.3vw, 15px);
+    margin: 0;
+    color: #555;
+}
+
+/* Keep image full-width */
+.academics-1 img.img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 991px) {
+    .academics-1 .col-12.col-md-6:last-child {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .academics-1 .section-title {
+        font-size: 26px;
+    }
+    .academics-1 .badge {
+        font-size: 11px !important;
+        letter-spacing: 2px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .academics-1 .section-title {
+        font-size: 22px;
+    }
+}
+
+/* ---- academics-2 ---- */
+.academics-2 .section-title {
+    font-size: clamp(24px, 4vw, 48px) !important;
+    line-height: 1.2;
+}
+
+/* Border grid: reset borders below tablet to avoid half-borders */
+@media (max-width: 767px) {
+    .academics-2 .icon-box.r1 {
+        border-right: none;
+        border-bottom: 2px solid rgba(221,221,221,0.4);
+    }
+    .academics-2 .icon-box.r2 {
+        border-top: none;
+    }
+    .academics-2 .icon-box {
+        padding: 20px 12px;
+    }
+}
+
+@media (max-width: 991px) {
+    .academics-2 {
+        padding: 60px 0;
+    }
+    /* middle column: remove right border when 1-column */
+    .academics-2 .col-12.col-md-4 {
+        border: none !important;
+    }
+    .academics-2 .icon-box.r1 {
+        border-right: none;
+        border-bottom: 2px solid rgba(221,221,221,0.4);
+    }
+    .academics-2 .icon-box.r2 {
+        border-top: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .academics-2 .badge {
+        font-size: 11px !important;
+        letter-spacing: 2px !important;
+    }
+    .academics-2 .icon-box i {
+        font-size: 36px;
+    }
+}
+
+/* ---- academics-3 ---- */
+.academics-3 .section-title {
+    font-size: clamp(24px, 3.5vw, 48px);
+    line-height: 1.2;
+}
+
+.academics-3 .section-desc {
+    font-size: clamp(14px, 1.5vw, 16px);
+    line-height: 1.8;
+}
+
+.academics-3 img.img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 991px) {
+    .academics-3 .col-12.col-md-6:first-child {
+        margin-bottom: 28px;
+    }
+    .academics-3 .section-title {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 767px) {
+    .academics-3 .section-title {
+        font-size: 24px;
+    }
+    .academics-3 .badge {
+        font-size: 11px !important;
+        letter-spacing: 2px !important;
+    }
+}
+
+/* ---- academics-4 ---- */
+.academics-4 .section-title {
+    font-size: clamp(22px, 4vw, 48px) !important;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.academics-4 .badge {
+    font-size: clamp(11px, 1.4vw, 18px) !important;
+    letter-spacing: clamp(2px, 0.4vw, 4px) !important;
+}
+
+/* icon-box: equal height, centered content */
+.academics-4 .icon-box {
+    height: 100%;
+    padding: 16px;
+}
+
+.academics-4 h4.icon-box-title {
+    font-size: clamp(15px, 1.8vw, 20px);
+    text-align: center;
+    margin-top: 14px;
+}
+
+.academics-4 p.icon-box-description {
+    font-size: clamp(13px, 1.4vw, 15px);
+    line-height: 1.75;
+    text-align: center;
+}
+
+.academics-4 .icon-circle {
+    height: clamp(48px, 5.5vw, 64px);
+    width: clamp(48px, 5.5vw, 64px);
+    flex-shrink: 0;
+}
+
+.academics-4 .icon-box .icon-circle i {
+    font-size: clamp(18px, 2vw, 24px);
+}
+
+/* row gap for consistent spacing */
+.academics-4 .row {
+    row-gap: 24px;
+}
+
+@media (max-width: 767px) {
+    .academics-4 .section-title {
+        font-size: 24px !important;
+    }
+    .academics-4 h4.icon-box-title {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 480px) {
+    .academics-4 .section-title {
+        font-size: 20px !important;
+    }
+}
+
+/* ---- academics-5 ---- */
+.academics-5 .section-title {
+    font-size: clamp(22px, 3.5vw, 44px);
+    line-height: 1.2;
+}
+
+/* bg-image col: needs height for the background to show */
+.academics-5 .col-12.col-md-6.col-lg-6.bg-image {
+    min-height: 320px;
+}
+
+/* Section content: remove left padding on small screens */
+.academics-5 .col-12.col-md-6.col-lg-6.section-content {
+    padding-left: 36px;
+}
+
+.academics-5 h3.content-title {
+    font-size: clamp(18px, 2.2vw, 26px);
+}
+
+.academics-5 p {
+    font-size: clamp(13px, 1.5vw, 16px);
+    line-height: 1.8;
+}
+
+/* Row gap */
+.academics-5 .content .row {
+    row-gap: 0;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 991px) {
+    .academics-5 .col-12.col-md-6.col-lg-6.bg-image {
+        min-height: 280px;
+        border-radius: 12px;
+        margin-bottom: 24px;
+    }
+}
+
+@media (max-width: 767px) {
+    .academics-5 .col-12.col-md-6.col-lg-6.section-content {
+        padding-left: 15px;
+    }
+    .academics-5 .section-title {
+        font-size: 24px;
+    }
+    .academics-5 .col-12.col-md-2 {
+        width: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .academics-5 .col-12.col-md-6.col-lg-6.bg-image {
+        min-height: 220px;
+    }
+    .academics-5 .section-title {
+        font-size: 20px;
+    }
+    .academics-5 .badge {
+        font-size: 11px !important;
+        letter-spacing: 2px !important;
+    }
+}
+
+/* ---- academics-6 ---- */
+.academics-6 .section-title {
+    font-size: clamp(22px, 4vw, 48px) !important;
+    line-height: 1.2;
+}
+
+.academics-6 .section-desc {
+    font-size: clamp(14px, 1.5vw, 16px);
+    line-height: 1.8;
+    color: #ddd;
+}
+
+.academics-6 .accordion-group {
+    max-width: 100%;
+    width: 100%;
+}
+
+.academics-6 img.img-fluid {
+    width: 100%;
+    height: auto;
+    max-height: 460px;
+    object-fit: cover;
+}
+
+/* inner-area row */
+.academics-6 .inner-area .row {
+    row-gap: 24px;
+}
+
+.academics-6 .acc-item summary span {
+    font-size: clamp(14px, 1.6vw, 20px);
+}
+
+@media (max-width: 991px) {
+    .academics-6 .col-12.col-md-6:first-child {
+        margin-bottom: 24px;
+    }
+    .academics-6 .section-title {
+        font-size: 30px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .academics-6 .section-title {
+        font-size: 24px !important;
+    }
+    .academics-6 .badge {
+        font-size: 11px !important;
+        letter-spacing: 2px !important;
+    }
+    .academics-6 img.img-fluid {
+        max-height: 280px;
+    }
+}
+
+@media (max-width: 480px) {
+    .academics-6 .acc-item summary {
+        padding: 14px 12px;
+    }
+    .academics-6 .content-body {
+        padding: 14px;
+        font-size: 13px;
+    }
+    .academics-6 .section-title {
+        font-size: 20px !important;
+    }
+}
+
+/* ---- academics-7 ---- */
+.academics-7 .heading h2.section-title {
+    font-size: clamp(22px, 4vw, 48px) !important;
+    line-height: 1.2;
+}
+
+.academics-7 .badge {
+    font-size: clamp(11px, 1.4vw, 18px) !important;
+    letter-spacing: clamp(2px, 0.4vw, 4px) !important;
+}
+
+/* Card image: fluid height scaled to viewport */
+.academics-7 .box img.img-fluid {
+    width: 100%;
+    height: clamp(160px, 20vw, 300px);
+    object-fit: cover;
+}
+
+/* Row gap */
+.academics-7 .row {
+    row-gap: 28px;
+}
+
+.academics-7 .box .content h4.box-title {
+    font-size: clamp(15px, 1.8vw, 20px);
+}
+
+.academics-7 .box .content p.box-description {
+    font-size: clamp(13px, 1.4vw, 15px);
+    line-height: 1.75;
+}
+
+@media (max-width: 991px) {
+    .academics-7 .box img.img-fluid {
+        height: 200px;
+    }
+}
+
+@media (max-width: 767px) {
+    .academics-7 .heading h2.section-title {
+        font-size: 24px !important;
+    }
+    .academics-7 .box img.img-fluid {
+        height: 180px;
+    }
+    .academics-7 .badge {
+        font-size: 11px !important;
+        letter-spacing: 2px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .academics-7 .heading h2.section-title {
+        font-size: 20px !important;
+    }
+    .academics-7 .box img.img-fluid {
+        height: 160px;
+    }
+}
+
+/* ---- academics-8 ---- */
+.academics-8 .section-title {
+    font-size: clamp(22px, 4vw, 48px) !important;
+    line-height: 1.2;
+}
+
+.academics-8 .badge {
+    font-size: clamp(11px, 1.4vw, 18px) !important;
+    letter-spacing: clamp(2px, 0.4vw, 4px) !important;
+}
+
+.academics-8 .section-desc {
+    font-size: clamp(14px, 1.5vw, 16px);
+    line-height: 1.8;
+}
+
+.academics-8 .heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Table: horizontal scroll on small screens */
+.academics-8 .content {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.academics-8 .table {
+    min-width: 400px;
+    font-size: clamp(13px, 1.5vw, 16px);
+}
+
+.academics-8 .table th,
+.academics-8 .table td {
+    padding: clamp(8px, 1vw, 14px);
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+@media (max-width: 767px) {
+    .academics-8 .section-title {
+        font-size: 24px !important;
+    }
+    .academics-8 .table {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .academics-8 .section-title {
+        font-size: 20px !important;
+    }
+}
+
+/* ---- education-section ---- */
+.education-title {
+    font-size: clamp(24px, 4vw, 48px) !important;
+    line-height: 1.2;
+}
+
+.education-section .badge {
+    font-size: clamp(11px, 1.4vw, 18px) !important;
+    letter-spacing: clamp(2px, 0.4vw, 4px) !important;
+}
+
+/* Tab label font */
+.education-tab h5 {
+    font-size: clamp(16px, 2vw, 22px);
+}
+
+/* Image: fluid with zoom-stable height */
+.education-img {
+    width: 100%;
+    height: clamp(200px, 28vw, 420px);
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+/* Content headings */
+.education-content h3 {
+    font-size: clamp(20px, 2.5vw, 32px);
+}
+
+.education-content p {
+    font-size: clamp(13px, 1.5vw, 16px);
+    line-height: 1.9;
+}
+
+/* Tabs: tighten on smaller screens */
+.education-tab {
+    min-height: auto;
+    padding: clamp(14px, 1.8vw, 22px) clamp(16px, 2vw, 25px);
+}
+
+.education-icon {
+    width: clamp(48px, 5vw, 60px);
+    height: clamp(48px, 5vw, 60px);
+    min-width: clamp(48px, 5vw, 60px);
+}
+
+.education-icon i {
+    font-size: clamp(18px, 2vw, 24px);
+}
+
+/* Content box padding */
+.education-content {
+    padding: clamp(18px, 2.5vw, 30px);
+}
+
+/* Stack layout on tablet */
+@media (max-width: 991px) {
+    .education-img {
+        height: 260px;
+        margin-bottom: 20px;
+    }
+    .education-title {
+        font-size: 32px !important;
+    }
+    .education-tab h5 {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 767px) {
+    .education-section .col-lg-4,
+    .education-section .col-lg-8 {
+        width: 100%;
+    }
+    .education-title {
+        font-size: 26px !important;
+    }
+    .education-img {
+        height: 220px;
+    }
+    /* Tab menu: side scroll if needed */
+    .education-menu {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        gap: 10px;
+        padding-bottom: 8px;
+        -webkit-overflow-scrolling: touch;
+    }
+    .education-tab {
+        flex: 0 0 auto;
+        min-width: 160px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 8px;
+        padding: 14px 12px;
+    }
+    .education-tab h5 {
+        font-size: 14px;
+    }
+    .education-content h3 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .education-title {
+        font-size: 22px !important;
+    }
+    .education-img {
+        height: 180px;
+    }
+    .education-tab {
+        min-width: 130px;
+        padding: 12px 10px;
+    }
+    .education-tab h5 {
+        font-size: 13px;
+    }
+    .education-content {
+        padding: 16px;
+    }
+    .education-section .container {
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+    }
+}
+
+/* ---- academics: general section spacing tightening on mobile ---- */
+@media (max-width: 767px) {
+    .academics-1.py-5,
+    .academics-2.py-5,
+    .academics-3.py-5,
+    .academics-4.py-5,
+    .academics-5.py-5,
+    .academics-6.py-5,
+    .academics-7.py-5,
+    .academics-8.py-5,
+    .education-section.py-5 {
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .academics-1.py-5,
+    .academics-2.py-5,
+    .academics-3.py-5,
+    .academics-4.py-5,
+    .academics-5.py-5,
+    .academics-6.py-5,
+    .academics-7.py-5,
+    .academics-8.py-5,
+    .education-section.py-5 {
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+    }
+
+    .academics-1 .container,
+    .academics-2 .container,
+    .academics-3 .container,
+    .academics-4 .container,
+    .academics-5 .container,
+    .academics-6 .container,
+    .academics-7 .container,
+    .academics-8 .container,
+    .education-section .container {
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+    }
+}
+
+@media (max-width: 482px){
+    .academics-7 .col-6.col-md-4.col-lg-4 {
+    width: 100%;
+}
+.academics-4 .col-6.col-md-3.col-lg-3 {
+    width: 100%;
+}
+}

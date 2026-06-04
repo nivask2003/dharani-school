@@ -22,6 +22,9 @@ include 'function.php';
 
 <body>
     <?=template_header()?>
+    <section class="page-banner-academics">
+        <h1 class="banner-title">Admission</h1>
+    </section>
     <?=template_footer()?>
      <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

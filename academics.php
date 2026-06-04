@@ -76,11 +76,11 @@ include 'function.php';
 
     <section class="academics-2 py-5">
         <div class="container">
-            <div class="heading">
+            <div class="heading text-center mb-4">
                 <span class="badge"><i class="bi bi-mortarboard-fill"></i> Teaching Methodology</span>
                 <h2 class="section-title">Innovative Teaching Methods for Future Learning</h2>
             </div>
-            <div class="row mt-5">
+            <div class="row g-0 mt-5">
                 <div class="col-12 col-md-4 col-lg-4">
                     <div class="icon-box r1">
                         <i class="bi bi-easel2"></i>
@@ -103,7 +103,7 @@ include 'function.php';
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row g-0">
                 <div class="col-12 col-md-4 col-lg-4">
                     <div class="icon-box r1 r2">
                         <i class="bi bi-people"></i>
@@ -150,7 +150,7 @@ include 'function.php';
                 <h2 class="section-title">Interactive Student Learning Zone!</h2>
             </div>
             <div class="row mt-5">
-                <div class="col-12 col-md-3 col-lg-3">
+                <div class="col-6 col-md-3 col-lg-3">
                     <div class="icon-box">
                         <div class="icon-circle">
                         <i class="bi bi-lightbulb"></i>
@@ -160,7 +160,7 @@ include 'function.php';
                     </div>
                         
                 </div>
-                <div class="col-12 col-md-3 col-lg-3">
+                <div class="col-6 col-md-3 col-lg-3">
                     <div class="icon-box">
                         <div class="icon-circle">
                         <i class="bi bi-lightbulb"></i>
@@ -170,7 +170,7 @@ include 'function.php';
                     </div>
                         
                 </div>
-                <div class="col-12 col-md-3 col-lg-3">
+                <div class="col-6 col-md-3 col-lg-3">
                     <div class="icon-box">
                         <div class="icon-circle">
                         <i class="bi bi-lightbulb"></i>
@@ -180,7 +180,7 @@ include 'function.php';
                     </div>
                         
                 </div>
-                <div class="col-12 col-md-3 col-lg-3">
+                <div class="col-6 col-md-3 col-lg-3">
                     <div class="icon-box">
                         <div class="icon-circle">
                         <i class="bi bi-lightbulb"></i>
@@ -203,8 +203,8 @@ include 'function.php';
                     <span class="badge"><i class="bi bi-mortarboard-fill"></i> Academic Growth</span>
                     <h2 class="section-title">Empowering Academic Growth</h2>
                     <div class="content mt-4">
-                        <div class="row">
-                            <div class="col-12 col-md-2 col-lg-2">
+                        <div class="row g-2 align-items-start">
+                            <div class="col-auto col-md-2 col-lg-2">
                                 <h3 class="content-title">01</h3>
                             </div>
                             <div class="col-12 col-md-8 col-lg-8">
@@ -212,8 +212,8 @@ include 'function.php';
                                 <p>SDIS follows a student-focused learning approach that encourages confidence, creativity, participation, communication skills, and independent thinking in every learner.</p>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-12 col-md-2 col-lg-2">
+                        <div class="row g-2 align-items-start">
+                            <div class="col-auto col-md-2 col-lg-2">
                                 <h3 class="content-title">02</h3>
                             </div>
                             <div class="col-12 col-md-8 col-lg-8">
@@ -221,8 +221,8 @@ include 'function.php';
                                 <p>The school follows a structured academic assessment system with periodic tests, practical evaluations, internal assessments, and subject enrichment activities</p>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-12 col-md-2 col-lg-2">
+                        <div class="row g-2 align-items-start">
+                            <div class="col-auto col-md-2 col-lg-2">
                                 <h3 class="content-title">03</h3>
                             </div>
                             <div class="col-12 col-md-8 col-lg-8">
@@ -230,8 +230,8 @@ include 'function.php';
                                 <p>Continuous evaluation methods help monitor student progress through assignments, presentations, activities, classroom participation, and regular assessments.</p>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-12 col-md-2 col-lg-2">
+                        <div class="row g-2 align-items-start">
+                            <div class="col-auto col-md-2 col-lg-2">
                                 <h3 class="content-title">04</h3>
                             </div>
                             <div class="col-12 col-md-8 col-lg-8">
@@ -257,7 +257,7 @@ include 'function.php';
             </div>
             <div class="container mt-5">
                 <div class="inner-area">
-                    <div class="row">
+                    <div class="row g-4 align-items-center">
                         <div class="col-12 col-md-6 col-lg-6">
                             <div class="accordion-group">
                                 <details class="acc-item">
@@ -323,7 +323,7 @@ include 'function.php';
                 <h2 class="section-title">Learning Beyond The Classroom</h2>
             </div>
             <div class="row mt-5">
-                <div class="col-12 col-md-4 col-lg-4">
+                <div class="col-6 col-md-4 col-lg-4">
                     <div class="box">
                         <img src="Assets\Images\sports.webp" alt="Sports & Games" class="img-fluid">
                         <div class="content">
@@ -333,7 +333,7 @@ include 'function.php';
                         
                     </div>
                 </div>
-                <div class="col-12 col-md-4 col-lg-4">
+                <div class="col-6 col-md-4 col-lg-4">
                     <div class="box">
                         <img src="Assets\Images\yoga.webp" alt="Yoga & Martial Arts" class="img-fluid">
                         <div class="content">
@@ -343,7 +343,7 @@ include 'function.php';
                         
                     </div>
                 </div>
-                <div class="col-12 col-md-4 col-lg-4">
+                <div class="col-6 col-md-4 col-lg-4">
                     <div class="box">
                         <img src="Assets\Images\music.webp" alt="Music & Dance" class="img-fluid">
                         <div class="content">
@@ -355,7 +355,7 @@ include 'function.php';
                 </div>
             </div>
             <div class="row mt-5">
-                <div class="col-12 col-md-4 col-lg-4">
+                <div class="col-6 col-md-4 col-lg-4">
                     <div class="box">
                         <img src="Assets\Images\arts.webp" alt="Art & Craft" class="img-fluid">
                         <div class="content">
@@ -365,7 +365,7 @@ include 'function.php';
                         
                     </div>
                 </div>
-                <div class="col-12 col-md-4 col-lg-4">
+                <div class="col-6 col-md-4 col-lg-4">
                     <div class="box">
                         <img src="Assets\Images\literary.webp" alt="Literary Activities" class="img-fluid">
                         <div class="content">
@@ -375,7 +375,7 @@ include 'function.php';
                         
                     </div>
                 </div>
-                <div class="col-12 col-md-4 col-lg-4">
+                <div class="col-6 col-md-4 col-lg-4">
                     <div class="box">
                         <img src="Assets\Images\debate.webp" alt="Debate & Elocution" class="img-fluid">
                         <div class="content">
@@ -387,7 +387,7 @@ include 'function.php';
                 </div>
             </div>
             <div class="row mt-5">
-                <div class="col-12 col-md-4 col-lg-4">
+                <div class="col-6 col-md-4 col-lg-4">
                     <div class="box">
                         <img src="Assets\Images\leadership.webp" alt="Leadership Programs" class="img-fluid">
                         <div class="content">
@@ -397,7 +397,7 @@ include 'function.php';
                         
                     </div>
                 </div>
-                <div class="col-12 col-md-4 col-lg-4">
+                <div class="col-6 col-md-4 col-lg-4">
                     <div class="box">
                         <img src="Assets\Images\community.webp" alt="Community Service Activities" class="img-fluid">
                         <div class="content">
@@ -407,7 +407,7 @@ include 'function.php';
                         
                     </div>
                 </div>
-                <div class="col-12 col-md-4 col-lg-4">
+                <div class="col-6 col-md-4 col-lg-4">
                     <div class="box">
                         <img src="Assets\Images\club.webp" alt="Club Activities" class="img-fluid">
                         <div class="content">
@@ -422,12 +422,12 @@ include 'function.php';
     </section>
     <section class="academics-8 py-5">
         <div class="container">
-            <div class="heading">
+            <div class="heading text-center mb-4">
                 <span class="badge"><i class="bi bi-mortarboard-fill"></i> Streams Offered</span>
                 <h2 class="section-title">XI & XII Academic Streams</h2>
                 <p class="section-desc">Sri Dharani International School offers carefully designed academic streams for Senior Secondary students to help them pursue higher education and career aspirations confidently.</p>
             </div>
-            <div class="content">
+            <div class="content table-responsive">
                 <table class="table table-bordered">
                     <thead>
                         <tr>
@@ -461,7 +461,7 @@ include 'function.php';
             <h2 class="education-title">Learning Pathways</h2>
         </div>
 
-        <div class="row g-4">
+        <div class="row g-4 align-items-start">
 
             <!-- Left Tabs -->
             <div class="col-lg-4">
