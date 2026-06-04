@@ -457,7 +457,7 @@ include 'function.php';
     <div class="container">
 
         <div class="text-center mb-5">
-            <span class="badge">Educational Framework</span>
+            <span class="badge"><i class="bi bi-mortarboard-fill"></i> Educational Framework</span>
             <h2 class="education-title">Learning Pathways</h2>
         </div>
 
