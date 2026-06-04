@@ -87,3 +87,26 @@ document.querySelectorAll('.acc-item').forEach(el => {
 	}
   };
 });    
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    const tabs = document.querySelectorAll(".education-tab");
+    const contents = document.querySelectorAll(".education-content-box");
+
+    tabs.forEach(tab => {
+
+        tab.addEventListener("click", function () {
+
+            tabs.forEach(item => item.classList.remove("active"));
+            contents.forEach(item => item.classList.remove("active"));
+
+            this.classList.add("active");
+
+            const target = this.getAttribute("data-tab");
+            document.getElementById(target).classList.add("active");
+
+        });
+
+    });
+
+});
