@@ -92,7 +92,7 @@ include 'function.php';
                         <li class="list">Submission of Transfer Certificate where applicable</li>
                         <li class="list">Age eligibility as per school norms</li>
                         <li class="list">Satisfactory academic performance</li>
-                        <li class="list">Completion of admission assessment procedures for higher classes/li>
+                        <li class="list">Completion of admission assessment procedures for higher classes</li>
 
                     </ul>
                     <h4 class="section-title mt-5">Age Criteria</h4>
@@ -113,77 +113,47 @@ include 'function.php';
             </div>
         </div>
     </section>
-    <section class="video-wrap " id="facilities">
-        <div class="container-fluid">
-            <div class="title center_title">
-                <span class="badge" style=""><i class="bi bi-mortarboard-fill me-2"></i>Our Facilities</span>
-                <h1 class="section-title">Why We’re Different</h1>
-            </div>
+    <section class="admission-4 py-5">
+        <div class="container">
             <div class="row">
-                <div class="col-md-2">
-                    <div class="profile_data">
-                        <div class="back"></div>
-                        <div class="profile" style="background-image: url('Assets/Images/fac-1.webp');"></div>
-                    </div>
-                    <div class="profile_infos">
-                        <h1 class="name"></h1>
-                        <h4 class="occupation">Smart Classroom</h4>
-                    </div>
-                </div>
-                <div class="col-md-2">
-                    <div class="profile_data">
-                        <div class="back"></div>
-                        <div class="profile" style="background-image: url('Assets/Images/fac-2.webp');"></div>
-                    </div>
-                    <div class="profile_infos">
-                        <h1 class="name"></h1>
-                        <h4 class="occupation">Montessori Room</h4>
-                    </div>
-                </div>
-                <div class="col-md-2">
-                    <div class="profile_data">
-                        <div class="back"></div>
-                        <div class="profile" style="background-image: url('Assets/Images/fac-3.webp');"></div>
-                    </div>
-                    <div class="profile_infos">
-                        <h1 class="name"></h1>
-                        <h4 class="occupation">Kindergarten Space</h4>
-                    </div>
-                </div>
-                <div class="col-md-2">
-                    <div class="profile_data">
-                        <div class="back"></div>
-                        <div class="profile" style="background-image: url('Assets/Images/fac-4.webp');"></div>
-                    </div>
-                    <div class="profile_infos">
-                        <h1 class="name"></h1>
-                        <h4 class="occupation">Science Laboratory</h4>
-                    </div>
-                </div>
-                <div class="col-md-2">
-                    <div class="profile_data">
-                        <div class="back"></div>
-                        <div class="profile" style="background-image: url('Assets/Images/fac-5.webp');"></div>
-                    </div>
-                    <div class="profile_infos">
-                        <h1 class="name"></h1>
-                        <h4 class="occupation">Computer Laboratory</h4>
-                    </div>
-                </div>
-                <div class="col-md-2">
-                    <div class="profile_data">
-                        <div class="back"></div>
-                        <div class="profile" style="background-image: url('Assets/Images/fac-6.webp');"></div>
-                    </div>
-                    <div class="profile_infos">
-                        <h1 class="name"></h1>
-                        <h4 class="occupation">Mathematics Laboratory</h4>
-                    </div>
-                </div>
-
-
+            <div class="col-12 col-md-6 col-lg-6">
+                <img src="Assets/Images/document.webp" alt="" class="img-fluid">
+            </div>
+            <div class="col-12 col-md-6 col-lg-6">
+                <span class="badge"><i class="bi bi-mortarboard-fill"></i> Documents Required</span>
+                <h2 class="section-title">Prepare Your Documents Today</h2>
+                <ul class="icon-list">
+                    <li class="list"><i class="bi bi-file-earmark-text"></i>Birth Certificate</li>
+                    <li class="list"><i class="bi bi-file-earmark-text"></i>Passport Size Photographs</li>
+                    <li class="list"><i class="bi bi-file-earmark-text"></i>Aadhaar Copy (Student & Parent)</li>
+                    <li class="list"><i class="bi bi-file-earmark-text"></i>Community Certificate (if applicable)</li>
+                    <li class="list"><i class="bi bi-file-earmark-text"></i>Previous Academic Records</li>
+                    <li class="list"><i class="bi bi-file-earmark-text"></i>Transfer Certificate</li>
+                    <li class="list"><i class="bi bi-file-earmark-text"></i>Conduct Certificate</li>
+                    <li class="list"><i class="bi bi-file-earmark-text"></i>Address Proof</li>
+                    <li class="list"><i class="bi bi-file-earmark-text"></i>Medical Information (if required)</li>
+                </ul>
+            </div>
+        </div>    
+        </div>
+        
+    </section>
+    <section class="admission-5 py-5">
+        <div class="container">
+            <div class="box">
+                <h2 class="section-title">Fee Information</h2>
+                <p class="section-desc">Sri Dharani International School follows a transparent fee structure in accordance with educational regulations and institutional policies. The fee structure is designed to support quality education, infrastructure development, academic resources, and student facilities. </p>
+                <h5>Detailed fee information regarding:</h5>
+                <ul class="icon-list">
+                    <li class="list">Tuition Fees</li>
+                    <li class="list">Admission Fees</li>
+                    <li class="list">Transport Fees</li>
+                    <li class="list">Examination Fees</li>
+                    <li class="list">Activity Fees</li>
+                </ul>
             </div>
         </div>
+
     </section>
     <?=template_footer()?>
      <!-- jQuery -->
