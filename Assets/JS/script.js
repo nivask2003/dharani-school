@@ -1,14 +1,14 @@
-window.addEventListener("scroll", function () {
+// window.addEventListener("scroll", function () {
 
-    const header = document.getElementById("mainHeader");
+//     const header = document.getElementById("mainHeader");
 
-    if (window.scrollY > 100) {
-        header.classList.add("sticky-header");
-    } else {
-        header.classList.remove("sticky-header");
-    }
+//     if (window.scrollY > 100) {
+//         header.classList.add("sticky-header");
+//     } else {
+//         header.classList.remove("sticky-header");
+//     }
 
-});
+// });
 
 
 

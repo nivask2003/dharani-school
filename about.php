@@ -206,7 +206,7 @@ include 'function.php';
                     </div>
                 </div>
                 <div class="col-12 col-md-4 col-lg-4">
-                    <div class="box">
+                    <div class="box hightlight">
                         <div class="icon-circle">
                             <i class="bi bi-mortarboard"></i>
                         </div>

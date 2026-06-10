@@ -3111,6 +3111,11 @@ p.section.desc {
     border-radius: 20px;
 }
 
+.about-4 .box.highlight{
+     background-color: #474279;
+    color: #fff;
+}
+
 .about-4 .box p.box-desc {
     text-align: center;
 }
