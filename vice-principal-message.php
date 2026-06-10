@@ -28,11 +28,14 @@ include 'function.php';
     <section class="founder-1">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-6 col-lg-6">
+                <div class="col-12 col-md-5 col-lg-5 image">
                     <img src="Assets\Images\vice-principal-img.webp" alt="" class="img-fluid">
+                    <div class="name-box">
+                        <h3 class="name">Name Unknown</h3>
+                        <p class="position">Vice - Principal </p>
+                    </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-6 content">
-                    <h2 class="section-title">Vice Principal</h2>
+                <div class="col-12 col-md-7 col-lg-7 content">
                     <p class="section-desc">As Vice Principal of Sri Dharani International School, I feel proud to be part of an institution committed to academic excellence, discipline, and holistic student development. Our school provides a supportive and inspiring environment where students are encouraged to achieve their goals, build confidence, and develop essential life skills. We believe education should nurture not only academic success but also character, leadership, communication abilities, emotional wellbeing, and social responsibility.</p>
                     <p class="section-desc">Through the combined efforts of dedicated teachers, supportive parents, and visionary management, we ensure that every child receives proper guidance and opportunities for growth. The institution continuously maintains high educational standards through innovative teaching methods, student engagement activities, and technology-integrated learning practices. Our commitment remains focused on shaping disciplined, compassionate, and future-ready learners who excel academically while upholding strong ethical and moral values.</p>
                 </div>

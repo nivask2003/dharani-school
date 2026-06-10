@@ -28,11 +28,15 @@ include 'function.php';
     <section class="founder-1">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-6 col-lg-6">
+                <div class="col-12 col-md-5 col-lg-5 image">
                     <img src="Assets\Images\principal-img.webp" alt="" class="img-fluid">
+                    <div class="name-box">
+                        <h3 class="name">Mrs. S. Deepika</h3>
+                        <p class="position">Principal</p>
+                    </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-6 content">
-                    <h2 class="section-title">Mrs. S. Deepika</h2>
+                <div class="col-12 col-md-7 col-lg-7 content">
+                    <h2 class="section-title"></h2>
                     <p class="section-desc">Education is a powerful force that shapes character, builds confidence, and transforms lives. At Sri Dharani International School, we are committed to providing an educational environment that promotes academic excellence, creativity, discipline, leadership, and holistic student development. Our student-centered approach encourages every child to actively participate in academics, co-curricular activities, sports, and personality development programs, helping them become confident, skilled, and socially responsible individuals.</p>
                     <p class="section-desc">The dedicated faculty members at SDIS continuously strive to deliver quality education through innovative teaching methods, individual attention, and continuous guidance. We believe learning should inspire curiosity, independent thinking, moral values, and lifelong growth. Our mission is to prepare students to face future challenges with confidence, knowledge, and determination while remaining rooted in culture, ethics, and humanity. I sincerely thank all parents for their trust, encouragement, and valuable support towards our institution’s vision and mission.</p>
                 </div>

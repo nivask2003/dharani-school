@@ -153,7 +153,7 @@ include 'function.php';
                 <div class="col-6 col-md-3 col-lg-3">
                     <div class="icon-box">
                         <div class="icon-circle">
-                        <i class="bi bi-lightbulb"></i>
+                        <i class="bi bi-journal-richtext"></i>
                     </div>
                         <h4 class="icon-box-title">Conceptual Learning</h4>
                         <p class="icon-box-description">Clear understanding through practical learning.</p>
@@ -163,7 +163,7 @@ include 'function.php';
                 <div class="col-6 col-md-3 col-lg-3">
                     <div class="icon-box">
                         <div class="icon-circle">
-                        <i class="bi bi-lightbulb"></i>
+                        <i class="bi bi-puzzle"></i>
                     </div>
                         <h4 class="icon-box-title">Experiential Education</h4>
                         <p class="icon-box-description">Hands-on activities make learning meaningful.</p>
@@ -173,7 +173,7 @@ include 'function.php';
                 <div class="col-6 col-md-3 col-lg-3">
                     <div class="icon-box">
                         <div class="icon-circle">
-                        <i class="bi bi-lightbulb"></i>
+                        <i class="bi bi-laptop"></i>
                     </div>
                         <h4 class="icon-box-title">Technology Integration</h4>
                         <p class="icon-box-description">Digital tools create smart learning experiences.</p>
@@ -183,7 +183,7 @@ include 'function.php';
                 <div class="col-6 col-md-3 col-lg-3">
                     <div class="icon-box">
                         <div class="icon-circle">
-                        <i class="bi bi-lightbulb"></i>
+                        <i class="bi bi-stars"></i>
                     </div>
                         <h4 class="icon-box-title">Skill Development</h4>
                         <p class="icon-box-description">CBuilding creativity, leadership, and confidence.</p>

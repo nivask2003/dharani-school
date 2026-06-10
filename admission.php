@@ -118,6 +118,7 @@ include 'function.php';
             <div class="row">
             <div class="col-12 col-md-6 col-lg-6">
                 <img src="Assets/Images/document.webp" alt="" class="img-fluid">
+                <img src="Assets/Images/document-1.webp" alt="" class="img-fluid document">
             </div>
             <div class="col-12 col-md-6 col-lg-6">
                 <span class="badge"><i class="bi bi-mortarboard-fill"></i> Documents Required</span>

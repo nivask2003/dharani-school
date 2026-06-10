@@ -28,7 +28,7 @@ href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.m
     <section class="hero-section">
 
         <!-- Background Video -->
-        <video autoplay muted loop playsinline class="hero-video">
+        <video autoplay muted loop playsinline class="hero-video" poster="Assets/Images/slide-1.png">>
             <source src="Assets/Video/hero-video.mp4" type="video/mp4">
         </video>
 

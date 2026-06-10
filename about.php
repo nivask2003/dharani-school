@@ -84,7 +84,7 @@ include 'function.php';
                     </div>
                 </div>
                 <div class="col-12 col-md-4 col-lg-4">
-                    <div class="outer-box">
+                    <div class="outer-box hightlight">
                         <div class="inner-box">
                             <div class="icon-circle">
                                 <i class="bi bi-bullseye"></i>

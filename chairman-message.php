@@ -28,11 +28,14 @@ include 'function.php';
     <section class="founder-1">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-6 col-lg-6">
+                <div class="col-12 col-md-5 col-lg-5 image">
                     <img src="Assets\Images\chairman.webp" alt="" class="img-fluid">
+                    <div class="name-box">
+                        <h3 class="name">Dr. D. Thamizh Valli</h3>
+                        <p class="position">Chairman</p>
+                    </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-6 content">
-                    <h2 class="section-title">Dr. D. Thamizh Valli </h2>
+                <div class="col-12 col-md-7 col-lg-7 content">
                     <p class="section-desc">It gives me immense pleasure to welcome you to Sri Dharani International School, an institution dedicated to academic excellence, character building, and holistic education. Our mission is to create an inspiring learning environment where students are encouraged to discover their potential, strengthen their talents, and grow into responsible global citizens. At SDIS, we believe education is not limited to academic achievement alone but also includes discipline, values, creativity, leadership, and compassion. Through modern teaching methodologies, student-centered learning, and a balanced curriculum, we strive to support the intellectual and personal growth of every child.</p>
                     <p class="section-desc">We are committed to nurturing confident individuals who can adapt to changing global demands while upholding strong moral and cultural values. Our dedicated faculty, modern infrastructure, and supportive educational atmosphere ensure that every student receives the guidance and encouragement needed to achieve excellence. I extend my heartfelt gratitude to all parents for their trust and continued support in our institution. Together, we will continue guiding our students towards knowledge, integrity, success, and lifelong learning.</p>
                 </div>

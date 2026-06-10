@@ -3492,162 +3492,308 @@ section.page-banner .banner-title {
 }
 
 /* ==========================================================
-   CHAIRMAN MESSAGE PAGE — RESPONSIVE + ZOOM-LEVEL FIX
-   Covers: page-banner-message, founder-1
-   All breakpoints + zoom levels (75% – 150%)
+   FOUNDER / CHAIRMAN MESSAGE PAGE — FULLY RESPONSIVE
+   Zoom-safe: 75% – 150% | Breakpoints: 400 / 575 / 767 / 991 / 1200+
+   Uses clamp() for fluid scaling instead of px jumps
 ========================================================== */
 
-/* ---- Page Banner: Message ---- */
+/* ─── 1. Page Banner ──────────────────────────────────────── */
 section.page-banner-message {
-    /* clamp: min 140px  →  scales with viewport  →  max 300px */
-    height: clamp(140px, 20vw, 300px);
+    /* Fluid height: never collapses below 120px, never over 300px */
+    height: clamp(120px, 20vw, 300px);
     width: 100%;
-    background-image: linear-gradient(135deg, #49447C, transparent),
+    background-image: linear-gradient(135deg, #49447C 0%, transparent 70%),
         url(../Images/message-bg.webp);
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 0 !important;
-    /* prevent horizontal bleed at any zoom */
+    /* Prevent banner from ever causing horizontal scroll */
     overflow: hidden;
     box-sizing: border-box;
-    padding: 20px 16px;
+    /* Vertical padding takes over when banner collapses on zoom-in */
+    padding: clamp(20px, 4vw, 40px) clamp(16px, 5vw, 40px);
 }
 
 section.page-banner-message .banner-title {
     color: #fff;
     font-weight: 700 !important;
-    font-size: clamp(26px, 5vw, 52px);
+    /* Fluid: 22px → 52px, tied to viewport not zoom level */
+    font-size: clamp(22px, 4.5vw, 52px);
     line-height: 1.2;
     text-align: center;
     margin: 0;
+    /* Prevent long titles from breaking layout */
+    word-break: break-word;
+    hyphens: auto;
 }
 
-section.page-banner .banner-title {
-    color: #fff;
-    font-weight: 700 !important;
-}
-
-/* ---- Founder / Chairman content section ---- */
+/* ─── 2. Founder Section ──────────────────────────────────── */
 .founder-1 {
-    overflow-x: hidden;
     width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    /* Fluid section padding */
+    padding-top: clamp(36px, 5vw, 70px);
+    padding-bottom: clamp(36px, 5vw, 70px);
+}
+
+.founder-1 .container {
+    /* Prevent container from hugging edges at any zoom */
+    padding-left: clamp(16px, 4vw, 40px) !important;
+    padding-right: clamp(16px, 4vw, 40px) !important;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .founder-1 .row {
     margin-left: 0 !important;
     margin-right: 0 !important;
+    /* Gap between image col and text col */
+    row-gap: clamp(24px, 3vw, 0px);
+    align-items: center;
 }
 
+/* ─── 3. Section Title ────────────────────────────────────── */
 .founder-1 .section-title {
     color: #49447C;
     font-weight: bold !important;
-    margin-bottom: 30px;
-    /* fluid: never smaller than 28px, never larger than 48px */
-    font-size: clamp(28px, 4vw, 48px);
-    line-height: 1.2;
+    font-size: clamp(22px, 3.5vw, 48px);
+    line-height: 1.25;
+    margin-bottom: clamp(16px, 2.5vw, 30px);
+    word-break: break-word;
 }
 
+/* ─── 4. Description Text ─────────────────────────────────── */
 .founder-1 .section-desc {
-    font-size: clamp(14px, 1.5vw, 16px);
+    /* Fluid: 14px → 16px, never too small at high zoom, never too large at low zoom */
+    font-size: clamp(14px, 1.4vw, 16px);
     line-height: 1.85;
+    text-align: justify;
+    margin-bottom: clamp(12px, 1.5vw, 20px);
+    /* Prevent orphan words from breaking the column */
+    overflow-wrap: break-word;
+    word-break: break-word;
 }
 
-.founder-1 .col-12.col-lg-6.col-md-6.content {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+/* ─── 5. Image Column ─────────────────────────────────────── */
+.founder-1 .image {
+    position: relative;
+    /* Ensure padding-box on all sides */
+    padding-left: clamp(8px, 2vw, 16px) !important;
+    padding-right: clamp(8px, 2vw, 16px) !important;
 }
 
 .founder-1 img.img-fluid {
     width: 100%;
     height: auto;
     display: block;
+    border-radius: clamp(12px, 2vw, 20px);
+    /* Ensure image never overflows at high zoom */
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
-/* ---- Tablet (≤ 991px) ---- */
+/* ─── 6. Name Box (overlay on image) ─────────────────────── */
+.founder-1 .name-box {
+    background: rgba(80, 72, 134, 0.70);
+    position: absolute;
+    /* Fluid width: auto-adjusts left/right with viewport */
+    width: calc(100% - clamp(32px, 8vw, 76px));
+    left: clamp(16px, 4vw, 38px);
+    bottom: clamp(8px, 1.5vw, 16px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: clamp(10px, 1.5vw, 20px);
+    color: #fff;
+    padding: clamp(12px, 2vw, 20px) clamp(8px, 2vw, 16px);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.founder-1 h3.name {
+    font-weight: 700 !important;
+    font-size: clamp(16px, 2vw, 22px);
+    margin: 0 0 4px 0;
+    line-height: 1.3;
+}
+
+.founder-1 p.position {
+    font-weight: 600;
+    font-size: clamp(12px, 1.4vw, 15px);
+    margin: 0;
+    opacity: 0.92;
+}
+
+/* ─── 7. Content Column ───────────────────────────────────── */
+.founder-1 .col-12.col-lg-6.col-md-6.content,
+.founder-1 .content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: clamp(12px, 3vw, 30px) !important;
+    padding-right: clamp(8px, 2vw, 16px) !important;
+}
+
+/* ─── 8. Tablet  ≤ 991px ──────────────────────────────────── */
 @media (max-width: 991px) {
     section.page-banner-message {
-        height: clamp(130px, 22vw, 220px);
+        height: clamp(110px, 22vw, 220px);
     }
 
     .founder-1 .section-title {
-        font-size: clamp(26px, 4.5vw, 38px);
-    }
-}
-
-/* ---- Stacked / Mobile (≤ 767px) ---- */
-@media (max-width: 767px) {
-    .founder-1 .col-12.col-md-6:first-child {
-        margin-bottom: 28px;
-    }
-
-    .founder-1 .section-title {
-        font-size: 26px;
+        font-size: clamp(22px, 4.5vw, 36px);
     }
 
     .founder-1 .section-desc {
-        font-size: 15px;
+        font-size: clamp(14px, 1.8vw, 16px);
+    }
+
+    /* Reduce overlap risk on the name-box at tablet zoom */
+    .founder-1 .name-box {
+        width: calc(100% - clamp(24px, 5vw, 60px));
+        left: clamp(12px, 2.5vw, 30px);
     }
 }
 
-/* ---- Small Mobile (≤ 575px) ---- */
+/* ─── 9. Stacked / Mobile  ≤ 767px ───────────────────────── */
+@media (max-width: 767px) {
+    .founder-1 .row {
+        flex-direction: column;
+    }
+
+    /* Image col always full-width when stacked */
+    .founder-1 .col-12.col-md-5,
+    .founder-1 .col-12.col-md-6:first-child {
+        width: 100% !important;
+        max-width: 100%;
+        margin-bottom: clamp(20px, 5vw, 32px);
+        padding-left: clamp(8px, 3vw, 16px) !important;
+        padding-right: clamp(8px, 3vw, 16px) !important;
+    }
+
+    .founder-1 .col-12.col-md-7,
+    .founder-1 .content {
+        width: 100% !important;
+        max-width: 100%;
+        padding-left: clamp(8px, 3vw, 16px) !important;
+        padding-right: clamp(8px, 3vw, 16px) !important;
+    }
+
+    .founder-1 .section-title {
+        font-size: clamp(20px, 5.5vw, 28px);
+        margin-bottom: 16px;
+    }
+
+    .founder-1 .section-desc {
+        font-size: clamp(14px, 3.8vw, 16px);
+        line-height: 1.8;
+    }
+
+    /* Name box: fixed proportions on stacked layout */
+    .founder-1 .name-box {
+        width: calc(100% - 32px);
+        left: 16px;
+        bottom: 10px;
+    }
+}
+
+/* ─── 10. Small Mobile  ≤ 575px ──────────────────────────── */
 @media (max-width: 575px) {
     section.page-banner-message {
+        /* Let banner grow with text when zoom is 125–150% */
         height: auto;
-        min-height: 120px;
-        padding: 30px 16px;
+        min-height: 100px;
+        padding: clamp(24px, 6vw, 36px) 16px;
     }
 
     section.page-banner-message .banner-title {
-        font-size: clamp(22px, 7vw, 34px);
+        font-size: clamp(20px, 6.5vw, 32px);
     }
 
-    section.page-banner.gallery {
-        height: auto;
-        min-height: 130px;
-        padding: 30px 16px;
-    }
-
-    .founder-1 .section-title {
-        font-size: 24px;
-        margin-bottom: 20px;
-    }
-
-    .founder-1 .section-desc {
-        font-size: 14px;
-        line-height: 1.75;
+    .founder-1 {
+        padding-top: clamp(28px, 6vw, 40px);
+        padding-bottom: clamp(28px, 6vw, 40px);
     }
 
     .founder-1 .container {
         padding-left: 16px !important;
         padding-right: 16px !important;
     }
-}
 
-/* ---- Very Small (≤ 400px) ---- */
-@media (max-width: 400px) {
     .founder-1 .section-title {
-        font-size: 22px;
+        font-size: clamp(18px, 6vw, 24px);
+        margin-bottom: 14px;
+    }
+
+    .founder-1 .section-desc {
+        font-size: 14px;
+        line-height: 1.75;
+        text-align: left; /* justify can look bad on very narrow screens */
+    }
+
+    .founder-1 img.img-fluid {
+        border-radius: 12px;
+    }
+
+    .founder-1 .name-box {
+        width: calc(100% - 24px);
+        left: 12px;
+        bottom: 8px;
+        border-radius: 12px;
+        padding: 12px 10px;
+    }
+
+    .founder-1 h3.name {
+        font-size: clamp(14px, 4.5vw, 18px);
+    }
+
+    .founder-1 p.position {
+        font-size: clamp(11px, 3.5vw, 14px);
     }
 }
 
-/* ---- Section vertical padding tightening on mobile ---- */
-@media (max-width: 767px) {
-    .founder-1.py-5 {
-        padding-top: 40px !important;
-        padding-bottom: 40px !important;
+/* ─── 11. Very Small  ≤ 400px ────────────────────────────── */
+@media (max-width: 400px) {
+    section.page-banner-message .banner-title {
+        font-size: clamp(18px, 7vw, 24px);
+    }
+
+    .founder-1 .section-title {
+        font-size: 18px;
+    }
+
+    .founder-1 .section-desc {
+        font-size: 13px;
+    }
+
+    .founder-1 .name-box {
+        width: calc(100% - 16px);
+        left: 8px;
+        bottom: 6px;
+        padding: 10px 8px;
     }
 }
 
-@media (max-width: 480px) {
-    .founder-1.py-5 {
-        padding-top: 30px !important;
-        padding-bottom: 30px !important;
-    }
+/* ─── 12. High-Zoom helpers (125% – 150%) ─────────────────── 
+   At 125% + zoom, viewport-relative units (vw) shrink, so clamp()
+   automatically falls back to the min value — keeping text readable.
+   These rules reinforce that fallback for known pain points.
+──────────────────────────────────────────────────────────── */
+
+/* Banner must never clip title at high zoom */
+section.page-banner-message {
+    min-height: 100px;
+}
+
+/* Prevent container from adding scroll bar at 125%+ */
+body {
+    overflow-x: hidden;
 }
 
 
@@ -3697,6 +3843,10 @@ section.page-banner .banner-title {
     width: 506px;
     border-radius: 10px;
     clip-path: polygon(0% 0%, 85% 0%, 100% 12%, 100% 100%, 0% 100%);
+}
+
+.trust-1 p.section-desc {
+    text-align: justify;
 }
 
 /* =========================================
@@ -3890,7 +4040,7 @@ section.page-banner .banner-title {
 
 .trust-3 .outer-box .inner-box {
     background-color: #fff;
-    padding: 10px;
+    padding: 18px;
     clip-path: polygon(0% 0%, 85% 0%, 100% 12%, 100% 100%, 0% 100%);
     border-radius: 10px;
 
@@ -3906,6 +4056,7 @@ section.page-banner .banner-title {
 
 .trust-3 .outer-box .inner-box p.section-desc {
     margin-top: 20px;
+    text-align: justify;
 }
 
 section.page-banner-academics {
@@ -4012,6 +4163,18 @@ section.page-banner .banner-title {
     padding: 20px;
 }
 
+.academics-2 .icon-box:hover{
+    background-color: #fff;
+}
+
+.academics-2 .icon-box:hover h4.box-title{
+    color: #474279;
+}
+
+.academics-2 .icon-box:hover p.icon-description{
+    color: #000;
+}
+
 .academics-2 .icon-box.r1 {
     border-right: 2px solid #ddd;
 }
@@ -4080,6 +4243,7 @@ section.page-banner .banner-title {
     justify-content: center;
     align-items: center;
     border-radius: 34px;
+    transition: 0.3s ease-in-out;
 }
 
 .academics-4 .icon-box .icon-circle i {
@@ -4087,9 +4251,20 @@ section.page-banner .banner-title {
     font-size: 24px;
 }
 
+.academics-4 .icon-box:hover .icon-circle{
+    transform: scale(1.2);
+    border: 2px solid #E0342C;
+}
+
 .academics-4 h4.icon-box-title {
     font-weight: 600 !important;
     margin-top: 16px;
+}
+
+.admission-4 img.img-fluid.document {
+    width: 100%;
+    height: 240px;
+    border: 2px solid #49447c;
 }
 
 .academics-5 .section-title {
@@ -4130,6 +4305,7 @@ section.page-banner .banner-title {
 
 .academics-6 p.section-desc {
     color: #fff;
+    text-align: justify;
 }
 
 .academics-6 .inner-area {
@@ -4199,6 +4375,7 @@ section.page-banner .banner-title {
     padding: 26px;
     color: #fff;
     line-height: 1.6;
+    text-align: justify;
 }
 
 .academics-6 .acc-item.is-open .acc-icon {
@@ -4843,6 +5020,7 @@ section.page-banner .banner-title {
 .academics-5 p {
     font-size: clamp(13px, 1.5vw, 16px);
     line-height: 1.8;
+    text-align: justify;
 }
 
 /* Row gap */
@@ -5788,4 +5966,35 @@ section.admission-3.py-5 {
     .navbar-nav .nav-link::before{
         opacity: 0 !important;
     }
+}
+
+
+@media(max-width: 482px){
+    .home-2 .box img.img-fluid{
+        bottom: 263px;
+    }
+
+    .home-3 img.img-fluid{
+        margin-bottom: 46px;
+    }
+
+    .video-wrap .row{
+        padding-left: 32px;
+        padding-right: 2px;
+    }
+
+    .profile_infos h4{
+        padding-right: 32px;
+        padding-bottom: 30px;
+    }
+}
+
+section.about-1.py-5 {
+    background: #49447c1f !important;
+}
+section.about-2.py-5 {
+    background: #49447c1f !important;
+}
+.outer-box.hightlight {
+    background: #f8e710;
 }
