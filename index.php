@@ -73,7 +73,7 @@ href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.m
             </div>
         </div>
     </section>
-    <section class="home-3">
+    <!-- <section class="home-3">
         <div class="container">
             
             <div class="row">
@@ -96,28 +96,10 @@ href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.m
             </div>
         </div>
 
-    </section>
-    <!-- <section class="admission mt-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-12">
-                   <span class="badge">Admission</span>
-                    <h2 class="section-title">Admission 2026 - 2027 </h2>
-                    <p class="section-desc">we are committed to nurturing a learning environment that empowers students
-                        to achieve academic excellence, develop critical thinking skills, and grow into responsible
-                        global citizens. We invite you to explore what makes our community special and how we can
-                        support your child's educational journey</p>
-                    <a href="contact.php" class="btn">Contact Us</a>
-                </div>
-                <div class="col-lg-6 col-12"></div>
-            </div>
-        </div>
     </section> -->
-
-    <section class="home-4 container-fluid py-5">
-        <a href="admission-form.php"><img src="Assets/Images/admission.webp" alt="" class="img-fluid"></a>
-        
-    </section>
+    <div class="home-3">
+        <img src="Assets/Images/dharani-about.png" alt="" class="img-fluid">
+    </div>
 
    <section class="video-wrap " id="facilities">
         <div class="container-fluid">
@@ -619,6 +601,16 @@ href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.m
 
 </div>
 
+        </div>
+    </section>
+        <section class="admission">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                   <img src="Assets/Images/content.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-6 col-12"></div>
+            </div>
         </div>
     </section>
     <section class="school-gallery-section">

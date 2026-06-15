@@ -30,12 +30,9 @@ include 'function.php';
             <div class="row">
                 <div class="col-12 col-md-5 col-lg-5 image">
                     <img src="Assets\Images\correspontent-img.webp" alt="" class="img-fluid">
-                    <div class="name-box">
-                        <h3 class="name">Dr. D. Thamizh Kumaran</h3>
-                        <p class="position">Correspondent</p>
-                    </div>
                 </div>
                 <div class="col-12 col-md-7 col-lg-7 content">
+                    <span class="badge"><i class="bi bi-mortarboard-fill"></i> Correspondent Message</span>
                     <h2 class="section-title">Dr. D. Thamizh Kumaran</h2>
                     <p class="section-desc">Sri Dharani International School stands as a center of educational excellence where every child is encouraged to learn, grow, and succeed in a positive and nurturing environment. We believe that each student possesses unique talents and abilities, and our mission is to help them discover their fullest potential through quality education, discipline, creativity, leadership, and strong moral values. The institution provides a safe and student-friendly atmosphere where learning becomes meaningful, engaging, and inspiring.</p>
                     <p class="section-desc">At SDIS, we continuously adopt modern educational practices, digital learning systems, and innovative teaching methodologies to prepare students for future academic and professional challenges. We encourage students to think independently, communicate confidently, and become socially responsible individuals. With the strong support of parents, dedicated teachers, and committed management, we remain focused on providing holistic development opportunities that shape successful, responsible, and confident citizens of tomorrow.</p>

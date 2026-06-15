@@ -446,7 +446,7 @@ h6 {
 
 .home-2 {
     position: absolute;
-    top: 874px;
+    top: 1050px;
     left: 68px;
 }
 
@@ -875,7 +875,7 @@ h6 {
 .school-gallery-section {
     position: relative;
     padding: 90px 0;
-    background: #e9403533;
+    background: #49447c24;
     overflow: hidden;
 }
 
@@ -1725,7 +1725,11 @@ h6 {
 
 @media (max-width: 767px) {
     .admission {
-        padding: 60px 0;
+        padding: 18px 0;
+    }
+
+    .admission img.img-fluid{
+        width: 56%;
     }
 }
 
@@ -3544,6 +3548,7 @@ section.page-banner-message .banner-title {
     /* Fluid section padding */
     padding-top: clamp(36px, 5vw, 70px);
     padding-bottom: clamp(36px, 5vw, 70px);
+    background-color: #49447c24;
 }
 
 .founder-1 .container {
@@ -3604,7 +3609,7 @@ section.page-banner-message .banner-title {
 
 /* ─── 6. Name Box (overlay on image) ─────────────────────── */
 .founder-1 .name-box {
-    background: rgba(80, 72, 134, 0.70);
+    background: #504886;
     position: absolute;
     /* Fluid width: auto-adjusts left/right with viewport */
     width: calc(100% - clamp(32px, 8vw, 76px));
@@ -6002,4 +6007,8 @@ section.about-2.py-5 {
 }
 .outer-box.hightlight {
     background: #f8e710;
+}
+
+.founder-1 span.badge {
+    text-align: left;
 }

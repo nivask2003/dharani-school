@@ -30,12 +30,10 @@ include 'function.php';
             <div class="row">
                 <div class="col-12 col-md-5 col-lg-5 image">
                     <img src="Assets\Images\founder-img.webp" alt="" class="img-fluid">
-                    <div class="name-box">
-                        <h3 class="name">Dr. K.K Dhandapani</h3>
-                        <p class="position">Founder & Managing Trustee</p>
-                    </div>
                 </div>
                 <div class="col-12 col-md-7 col-lg-7 content">
+                    <span class="badge"><i class="bi bi-mortarboard-fill"></i> Founder Message</span>
+                    <h2 class="section-title">Dr. K.K. Dhandapani</h2>
                     <p class="section-desc">Dr. K.K. Dhandapani, the Founder and Managing Trustee of Sri Dharani International School, is a visionary educationalist, eminent advocate, and respected social contributor dedicated to promoting quality education and value-based learning. With a progressive vision and strong commitment to academic excellence, he established the institution to provide world-class education for students from both rural and urban communities. His leadership is rooted in discipline, integrity, innovation, and holistic student development.</p>
                     <p class="section-desc">Under his guidance, Sri Dharani International School has grown into a reputed CBSE institution known for academic excellence, moral values, and modern infrastructure. Dr. K.K. Dhandapani believes education should empower students with knowledge, confidence, leadership skills, and social responsibility. His dedication towards educational advancement and student welfare continues to inspire the entire school community while shaping future leaders who contribute positively to society and the nation.</p>
                     
