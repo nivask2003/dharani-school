@@ -97,11 +97,11 @@ href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.m
         </div>
 
     </section>
-    <section class="admission mt-5">
+    <!-- <section class="admission mt-5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-12">
-                    <!-- <span class="badge">Admission</span> -->
+                   <span class="badge">Admission</span>
                     <h2 class="section-title">Admission 2026 - 2027 </h2>
                     <p class="section-desc">we are committed to nurturing a learning environment that empowers students
                         to achieve academic excellence, develop critical thinking skills, and grow into responsible
@@ -112,6 +112,11 @@ href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.m
                 <div class="col-lg-6 col-12"></div>
             </div>
         </div>
+    </section> -->
+
+    <section class="home-4 container-fluid py-5">
+        <a href="admission-form.php"><img src="Assets/Images/admission.webp" alt="" class="img-fluid"></a>
+        
     </section>
 
    <section class="video-wrap " id="facilities">
