@@ -31,7 +31,7 @@ include 'function.php';
             <div class="heading">
                 <span class="badge"><i class="bi bi-mortarboard-fill"></i> Our Facilities</span>
                 <h2 class="section-title" style="font-weight: 700!important;">
-                What Parents Say About Us
+                Why We’re Different
             </h2>
             </div>
             <div class="row">

@@ -35,7 +35,9 @@ include 'function.php';
                             <i class="bi bi-geo"></i>
                         </div>
                         <h3 class="box-title">Address</h3>
-                        <p class="box-desc">Sri Dharani International School, Gingee, Villupuram District, Tamil Nadu, India</p>
+                        <p class="box-desc">Sri Dharani International School<br>
+No.1 Sri Dharani Nagar, Sandhaimedu,<br>
+Melkalavai road, Gingee, Villupuram district, Tamilnadu-604202</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 col-12 mb-4 mb-md-0">
@@ -53,7 +55,7 @@ include 'function.php';
                             <i class="bi bi-telephone"></i>
                         </div>
                         <h3 class="box-title">Call Us</h3>
-                        <p class="box-desc"><a href="tel:04145 290101">04145 290101</a><br><a href="tel:+917339075714">+917339075714</a>, <a href="tel:+917339075714">+917339075714</a></p>
+                        <p class="box-desc"><a href="tel:+919381422260">+91 9381422260</a><br><a href="tel:+917339075714">+91 7339075714</a></p>
                     </div>
                 </div>
             </div>

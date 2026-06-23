@@ -22,7 +22,9 @@ function template_header(){
 
                         <div class="contact-item">
                             <i class="bi bi-telephone"></i>
-                            <a href="tel:04145290101">04145 290101</a>
+                            <a href="tel:+917339075714">+91 7339075714</a>
+                            &nbsp;
+                            <a href="tel:+919381422260">+91 9381422260</a>
                         </div>
 
                     </div>
@@ -35,9 +37,7 @@ function template_header(){
                     <div class="top-menu">
 
                         <a href="admission.php ">ADMISSION</a>
-                        <a href="https://www.cbse.gov.in/cbsenew/documents/MPD_08052026.pdf" target="_blank">
-                            CBSE
-                        </a>
+                        <a href="mandatory-disclosure.php">MANDATORY DISCLOSURE</a>
 
                     </div>
 
@@ -160,10 +160,7 @@ function template_footer(){
                 </div>
 
                 <p class="footer-about">
-                    Envisioned and established by the Fathers of the Carmel
-                    Province of the Carmelites of Mary Immaculate (CMI),
-                    Sri Dharani International School is committed to
-                    academic excellence and holistic development.
+                    Sri Dharani International School, Gingee, is a CBSE institution committed to academic excellence, discipline, innovation, and value-based education, nurturing confident, skilled, and responsible learners.
                 </p>
 
                 <!-- Social Icons -->
@@ -277,11 +274,10 @@ function template_footer(){
                     <div class="footer-contact-item">
                         <i class="bi bi-telephone-fill"></i>
                         <ul style="list-style-type:none; padding:0">
-                        <li><a href="tel:04145290101">
-                            04145290101
+                        <li><a href="tel:+919381422260">
+                            +91 9381422260
                         </a></li>
-                        <li><a href="tel:+917339075714">+917339075714</a></li>
-                        <li><a href="tel:+919381422260">+919381422260</a></li>
+                        <li><a href="tel:+917339075714">+91 7339075714</a></li>
                         </ul>
 
                         

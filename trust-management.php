@@ -76,6 +76,11 @@ include 'function.php';
                         <h4 class="team-name">Dr. D. Thamizh Valli </h4>
                         <p class="destination">Trustee Member</p>
                     </div>
+                    <div class="team-member">
+                        <img src="Assets/Images/team-5.webp" class="img-fluid" alt="Dr. D. Thamizh Valli ">
+                        <h4 class="team-name">Dr. D. Thamizh Vani</h4>
+                        <p class="destination">Trustee Member</p>
+                    </div>
 
                 </div>
 

@@ -32,11 +32,11 @@ include 'function.php';
             <!-- Heading -->
 
             <div class="text-center mb-5">
-                <span class="smart-gallery-subtitle">
-                    OUR GALLERY
+                <span class="badge">
+                    <i class="bi bi-mortarboard-fill"></i> OUR GALLERY
                 </span>
 
-                <h2 class="smart-gallery-title">
+                <h2 class="section-title">
                     School Memories
                 </h2>
             </div>

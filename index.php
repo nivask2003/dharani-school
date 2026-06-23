@@ -659,6 +659,482 @@ href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.m
 
         </div>
     </section>
+    <section class="acheivement py-5">
+        <div class="container">
+            <div class="heading text-center">
+                <span class="badge"><i class="bi bi-mortarboard-fill"></i> Acheivements</span>
+                <h2 class="section-title">Achievements That Inspire</h2>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6 mt-4">
+                    <img src="Assets/Images/acheive-1.webp" alt="" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 mt-4">
+                    <img src="Assets/Images/acheive-2.webp" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials py-5">
+        <div class="container">
+            <div class="heading text-center">
+                <span class="badge"><i class="bi bi-mortarboard-fill"></i> Testimonials</span>
+                <h2 class="section-title">What Parents Say About Us</h2>
+            </div>
+            <!-- ===================== DESKTOP TESTIMONIAL CAROUSEL ===================== -->
+
+<div id="testimonialCarouselDesktop"
+     class="carousel slide d-none d-lg-block mt-4"
+     data-bs-ride="carousel">
+
+    <div class="carousel-inner">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+
+            <div class="row g-4">
+
+                <!-- Testimonial 1 -->
+                <div class="col-lg-4">
+                    <div class="testimonial-card">
+
+                        <div class="testimonial-icon">
+                            <i class="bi bi-quote"></i>
+                        </div>
+
+                        <p class="testimonial-text">
+                            I admitted my son directly in Class 1
+                            without kindergarten. The teachers
+                            patiently taught him from the basics,
+                            and now he is performing extremely well.
+                        </p>
+
+                        <div class="testimonial-user">
+                            <h5>Chithra</h5>
+
+                            <span>
+                                Parent of Praveen - Class 1
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="col-lg-4">
+                    <div class="testimonial-card">
+
+                        <div class="testimonial-icon">
+                            <i class="bi bi-quote"></i>
+                        </div>
+
+                        <p class="testimonial-text">
+                            After joining SDIS, I could see a major
+                            improvement in my daughter’s English
+                            speaking and vocabulary skills.
+                        </p>
+
+                        <div class="testimonial-user">
+                            <h5>Jayaraj</h5>
+
+                            <span>
+                                Parent of Preetha - Class 3
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="col-lg-4">
+                    <div class="testimonial-card">
+
+                        <div class="testimonial-icon">
+                            <i class="bi bi-quote"></i>
+                        </div>
+
+                        <p class="testimonial-text">
+                            The teachers are caring, knowledgeable,
+                            and supportive. My son became more
+                            focused and disciplined after joining.
+                        </p>
+
+                        <div class="testimonial-user">
+                            <h5>Hemalatha</h5>
+
+                            <span>
+                                Parent of Ashwin - Class 5
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+
+            <div class="row g-4">
+
+                <!-- Testimonial 4 -->
+                <div class="col-lg-4">
+                    <div class="testimonial-card">
+
+                        <div class="testimonial-icon">
+                            <i class="bi bi-quote"></i>
+                        </div>
+
+                        <p class="testimonial-text">
+                            I could clearly see improvement in my
+                            daughter’s academics and extracurricular
+                            activities after joining SDIS.
+                        </p>
+
+                        <div class="testimonial-user">
+                            <h5>Gokulraj</h5>
+
+                            <span>
+                                Parent of Deeksha - Class 7
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Testimonial 5 -->
+                <div class="col-lg-4">
+                    <div class="testimonial-card">
+
+                        <div class="testimonial-icon">
+                            <i class="bi bi-quote"></i>
+                        </div>
+
+                        <p class="testimonial-text">
+                            My daughter scored excellent marks in
+                            her Class 10 board exams, and the
+                            coaching provided was outstanding.
+                        </p>
+
+                        <div class="testimonial-user">
+                            <h5>Chandrakanth</h5>
+
+                            <span>
+                                Parent of Ritwik - Class 10
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Testimonial 6 -->
+                <div class="col-lg-4">
+                    <div class="testimonial-card">
+
+                        <div class="testimonial-icon">
+                            <i class="bi bi-quote"></i>
+                        </div>
+
+                        <p class="testimonial-text">
+                            I was very happy to see my daughter
+                            excel academically and secure admission
+                            in the college of her choice.
+                        </p>
+
+                        <div class="testimonial-user">
+                            <h5>Sivakavi</h5>
+
+                            <span>
+                                Parent of Chinmayi - Class 12
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Controls -->
+    <button class="carousel-control-prev"
+            type="button"
+            data-bs-target="#testimonialCarouselDesktop"
+            data-bs-slide="prev">
+
+        <span class="testimonial-arrow">
+            <i class="bi bi-arrow-left"></i>
+        </span>
+
+    </button>
+
+    <button class="carousel-control-next"
+            type="button"
+            data-bs-target="#testimonialCarouselDesktop"
+            data-bs-slide="next">
+
+        <span class="testimonial-arrow">
+            <i class="bi bi-arrow-right"></i>
+        </span>
+
+    </button>
+
+</div>
+
+
+
+<!-- ===================== MOBILE TESTIMONIAL CAROUSEL ===================== -->
+
+<div id="testimonialCarouselMobile"
+     class="carousel slide d-block d-lg-none mt-4"
+     data-bs-ride="carousel">
+
+    <div class="carousel-inner">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+
+            <div class="row justify-content-center">
+
+                <div class="col-12">
+
+                    <div class="testimonial-card">
+
+                        <div class="testimonial-icon">
+                            <i class="bi bi-quote"></i>
+                        </div>
+
+                        <p class="testimonial-text">
+                            I admitted my son directly in Class 1
+                            without kindergarten. The teachers
+                            patiently taught him from the basics,
+                            and now he is performing extremely well.
+                        </p>
+
+                        <div class="testimonial-user">
+                            <h5>Chithra</h5>
+
+                            <span>
+                                Parent of Praveen - Class 1
+                            </span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+
+            <div class="row justify-content-center">
+
+                <div class="col-12">
+
+                    <div class="testimonial-card">
+
+                        <div class="testimonial-icon">
+                            <i class="bi bi-quote"></i>
+                        </div>
+
+                        <p class="testimonial-text">
+                            After joining SDIS, I could see a major
+                            improvement in my daughter’s English
+                            speaking and vocabulary skills.
+                        </p>
+
+                        <div class="testimonial-user">
+                            <h5>Jayaraj</h5>
+
+                            <span>
+                                Parent of Preetha - Class 3
+                            </span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item">
+
+            <div class="row justify-content-center">
+
+                <div class="col-12">
+
+                    <div class="testimonial-card">
+
+                        <div class="testimonial-icon">
+                            <i class="bi bi-quote"></i>
+                        </div>
+
+                        <p class="testimonial-text">
+                            The teachers are caring, knowledgeable,
+                            and supportive. My son became more
+                            focused and disciplined after joining.
+                        </p>
+
+                        <div class="testimonial-user">
+                            <h5>Hemalatha</h5>
+
+                            <span>
+                                Parent of Ashwin - Class 5
+                            </span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Slide 4 -->
+        <div class="carousel-item">
+
+            <div class="row justify-content-center">
+
+                <div class="col-12">
+
+                    <div class="testimonial-card">
+
+                        <div class="testimonial-icon">
+                            <i class="bi bi-quote"></i>
+                        </div>
+
+                        <p class="testimonial-text">
+                            I could clearly see improvement in my
+                            daughter’s academics and extracurricular
+                            activities after joining SDIS.
+                        </p>
+
+                        <div class="testimonial-user">
+                            <h5>Gokulraj</h5>
+
+                            <span>
+                                Parent of Deeksha - Class 7
+                            </span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Slide 5 -->
+        <div class="carousel-item">
+
+            <div class="row justify-content-center">
+
+                <div class="col-12">
+
+                    <div class="testimonial-card">
+
+                        <div class="testimonial-icon">
+                            <i class="bi bi-quote"></i>
+                        </div>
+
+                        <p class="testimonial-text">
+                            My daughter scored excellent marks in
+                            her Class 10 board exams, and the
+                            coaching provided was outstanding.
+                        </p>
+
+                        <div class="testimonial-user">
+                            <h5>Chandrakanth</h5>
+
+                            <span>
+                                Parent of Ritwik - Class 10
+                            </span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Slide 6 -->
+        <div class="carousel-item">
+
+            <div class="row justify-content-center">
+
+                <div class="col-12">
+
+                    <div class="testimonial-card">
+
+                        <div class="testimonial-icon">
+                            <i class="bi bi-quote"></i>
+                        </div>
+
+                        <p class="testimonial-text">
+                            I was very happy to see my daughter
+                            excel academically and secure admission
+                            in the college of her choice.
+                        </p>
+
+                        <div class="testimonial-user">
+                            <h5>Sivakavi</h5>
+
+                            <span>
+                                Parent of Chinmayi - Class 12
+                            </span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Controls -->
+    <button class="carousel-control-prev"
+            type="button"
+            data-bs-target="#testimonialCarouselMobile"
+            data-bs-slide="prev">
+
+        <span class="testimonial-arrow">
+            <i class="bi bi-arrow-left"></i>
+        </span>
+
+    </button>
+
+    <button class="carousel-control-next"
+            type="button"
+            data-bs-target="#testimonialCarouselMobile"
+            data-bs-slide="next">
+
+        <span class="testimonial-arrow">
+            <i class="bi bi-arrow-right"></i>
+        </span>
+
+    </button>
+
+</div>
+        </div>
+        
+    </section>
     
     <?=template_footer()?>
     <!-- jQuery -->

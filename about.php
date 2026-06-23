@@ -136,7 +136,7 @@ include 'function.php';
     </summary>
     <div class="content-wrapper">
       <div class="content-body">
-	    At Sri Dharani International School, education is a journey that nurtures character, creativity, knowledge, and responsibility. The school believes every child has unique potential and provides a supportive environment for holistic growth. SDIS emphasizes experiential learning, critical thinking, leadership, communication skills, discipline, ethics, and values to develop confident, compassionate, and socially responsible lifelong learner
+	    At Sri Dharani International School, education is a journey that nurtures character, creativity, knowledge, and responsibility. The school believes every child has unique potential and provides a supportive environment for holistic growth. SDIS emphasizes experiential learning, critical thinking, leadership, communication skills, discipline, ethics, and values to develop confident, compassionate, and socially responsible lifelong learners.
 	  </div>
     </div>
   </details>
